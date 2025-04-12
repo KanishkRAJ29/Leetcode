@@ -1,39 +1,61 @@
+//Approach (Using Maths + Strings)
+//T.C : O(10^d * nlogn), where d = number of digits
+//S.C : O(10^d * n)
 class Solution {
 public:
     long long countGoodIntegers(int n, int k) {
-        unordered_set<string> dict;
-        int base = pow(10, (n - 1) / 2);
-        int skip = n & 1;
-        /* Enumerate the number of palindrome numbers of n digits */
-        for (int i = base; i < base * 10; i++) {
-            string s = to_string(i);
-            s += string(s.rbegin() + skip, s.rend());
-            long long palindromicInteger = stoll(s);
-            /* If the current palindrome number is a k-palindromic integer */
-            if (palindromicInteger % k == 0) {
-                sort(s.begin(), s.end());
-                dict.emplace(s);
+        unordered_set<string> st;
+
+        int d = (n+1)/2;
+        int start = pow(10, d-1);
+        int end   = pow(10, d) - 1;
+
+        for(int num = start; num <= end; num++) {
+            string leftHalf = to_string(num);
+            string full = "";
+
+            if(n%2 == 0) {
+                string rightHalf = leftHalf;
+                reverse(rightHalf.begin(), rightHalf.end());
+                full = leftHalf + rightHalf;
+            } else {
+                string rightHalf = leftHalf.substr(0, d-1);
+                reverse(rightHalf.begin(), rightHalf.end());
+                full = leftHalf + rightHalf;
             }
+
+            long long number = stoll(full);
+            if(number % k != 0)
+                continue;
+            
+            sort(full.begin(), full.end());
+            st.insert(full);
         }
 
-        vector<long long> factorial(n + 1, 1);
-        long long ans = 0;
-        for (int i = 1; i <= n; i++) {
-            factorial[i] = factorial[i - 1] * i;
+        vector<long long> factorial(11, 1);
+        for(int i = 1; i < 11; i++) {
+            factorial[i] = factorial[i-1] * i;
         }
-        for (const string &s : dict) {
-            vector<int> cnt(10);
-            for (char c : s) {
-                cnt[c - '0']++;
+        long long result = 0;
+        for(const string &s : st) {
+            vector<int> count(10, 0);
+            for(const char &ch : s) {
+                count[ch - '0']++; //mp[ch]++
             }
-            /* Calculate permutations and combinations */
-            long long tot = (n - cnt[0]) * factorial[n - 1];
-            for (int x : cnt) {
-                tot /= factorial[x];
+
+            int totalDigits = s.length();
+            int zeroDigits = count[0];
+            int nonZeroDigits = totalDigits - zeroDigits;
+
+            long long perm = (nonZeroDigits * factorial[totalDigits-1]);
+
+            for(int i = 0; i < 10; i++) {
+                perm /= factorial[count[i]];
             }
-            ans += tot;
+
+            result += perm;
         }
 
-        return ans;
+        return result;
     }
 };
