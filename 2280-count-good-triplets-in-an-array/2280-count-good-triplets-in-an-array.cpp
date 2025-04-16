@@ -1,49 +1,45 @@
-class FenwickTree {
-private:
-    vector<int> tree;
-
-public:
-    FenwickTree(int size) : tree(size + 1, 0) {}
-
-    void update(int index, int delta) {
-        index++;
-        while (index < tree.size()) {
-            tree[index] += delta;
-            index += index & -index;
-        }
-    }
-
-    int query(int index) {
-        index++;
-        int res = 0;
-        while (index > 0) {
-            res += tree[index];
-            index -= index & -index;
-        }
-        return res;
-    }
-};
-
 class Solution {
 public:
+    int querySt(int l,int r,int i,int s,int end,vector<long long>&st){
+        if(l>end||r<s)return 0;
+        if(l>=s&&r<=end){
+            return st[i];
+        }
+        int mid=l+(r-l)/2;
+        int left=querySt(l,mid,2*i+1,s,end,st);
+        int right=querySt(mid+1,r,2*i+2,s,end,st);
+        return left+right;
+    }
+    void updateSt(int l,int r,int i,int index,vector<long long>&st){
+        if(l==r){st[i]=1;
+        return;}
+        
+        int mid=l+(r-l)/2;
+        if(index<=mid){
+            updateSt(l,mid,2*i+1,index,st);
+        }else{
+            updateSt(mid+1,r,2*i+2,index,st);
+        }
+        st[i]=st[2*i+1]+st[2*i+2];
+    }
     long long goodTriplets(vector<int>& nums1, vector<int>& nums2) {
-        int n = nums1.size();
-        vector<int> pos2(n), reversedIndexMapping(n);
-        for (int i = 0; i < n; i++) {
-            pos2[nums2[i]] = i;
+        unordered_map<int,int>mp;
+        for(int i=0;i<nums2.size();i++){
+            mp[nums2[i]]=i;
         }
-        for (int i = 0; i < n; i++) {
-            reversedIndexMapping[pos2[nums1[i]]] = i;
+        int n=nums1.size();
+        vector<long long>st(4*n,0);
+        long long ans=0;
+        updateSt(0,n-1,0,mp[nums1[0]],st);
+        for(int i=1;i<n;i++){
+            int idx=mp[nums1[i]];
+            long long LeftCommonCount=querySt(0,n-1,0,0,idx,st);
+            updateSt(0,n-1,0,idx,st);
+            long long LeftUncommon=i-LeftCommonCount;
+            long long elemAfterIdxNums2=n-1-idx;
+            long long rightCommon=elemAfterIdxNums2-LeftUncommon;
+            ans+=LeftCommonCount*rightCommon;
         }
-        FenwickTree tree(n);
-        long long res = 0;
-        for (int value = 0; value < n; value++) {
-            int pos = reversedIndexMapping[value];
-            int left = tree.query(pos);
-            tree.update(pos, 1);
-            int right = (n - 1 - pos) - (value - left);
-            res += (long long)left * right;
-        }
-        return res;
+        return ans;
     }
 };
