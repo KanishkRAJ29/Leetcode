@@ -10,15 +10,9 @@ public:
         map<int, int> freq;
 
         while (j < n) {
-            freq[nums[j]]++;  // include nums[j] in the window
-
-            // Try shrinking window from left while it still contains all distinct elements
+            freq[nums[j]]++; 
             while (freq.size() == totalDistinct) {
-                // Since nums[i..j] is valid, so are all subarrays [i..j], [i+1..j], ..., [j..j]
-                // So we add (n - j) subarrays that start from i and end from j to n-1
                 count += (n - j);
-
-                // Shrink from the left
                 freq[nums[i]]--;
                 if (freq[nums[i]] == 0) {
                     freq.erase(nums[i]);
