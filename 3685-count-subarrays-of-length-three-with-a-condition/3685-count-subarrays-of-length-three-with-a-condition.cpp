@@ -9,8 +9,8 @@ public:
         int mid=0;
         for(k;k<nums.size();k++){
             if(nums[j]%2==0){
-                mid=nums[j]/2;
-                if(nums[i]+nums[k]==mid)ans++; 
+                
+                if(nums[i]+nums[k]==nums[j]/2)ans++; 
             }
            
            
