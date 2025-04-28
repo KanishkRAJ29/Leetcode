@@ -37,14 +37,14 @@ public:
     int countCoveredBuildings(int n, vector<vector<int>>& buildings) {
         unordered_map<int,pair<int,int>>mpi;
         unordered_map<int,pair<int,int>>mpj;
-        sort(buildings.begin(),buildings.end());
+       // sort(buildings.begin(),buildings.end());
 
         filli(mpi,buildings);
 
 
-        sort(buildings.begin(), buildings.end(), [](const vector<int>& a, const vector<int>& b) {
+       /* sort(buildings.begin(), buildings.end(), [](const vector<int>& a, const vector<int>& b) {
         return a[1] < b[1];
-    });
+    });*/
         fillj(mpj,buildings);
         int ii=0;
         int jj=0;
