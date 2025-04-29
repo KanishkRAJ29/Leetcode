@@ -26,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/KanishkRAJ29/Leetcode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/KanishkRAJ29/Leetcode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/KanishkRAJ29/Leetcode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
+| [3838-path-existence-queries-in-a-graph-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -86,10 +87,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/KanishkRAJ29/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
+| [3838-path-existence-queries-in-a-graph-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
 ## Graph
 |  |
 | ------- |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/KanishkRAJ29/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
+| [3838-path-existence-queries-in-a-graph-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
 ## Sorting
 |  |
 | ------- |
@@ -126,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/KanishkRAJ29/Leetcode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/KanishkRAJ29/Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/KanishkRAJ29/Leetcode/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+| [3838-path-existence-queries-in-a-graph-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
 ## Divide and Conquer
 |  |
 | ------- |
