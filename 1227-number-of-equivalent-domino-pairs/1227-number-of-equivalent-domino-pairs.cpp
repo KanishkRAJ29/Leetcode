@@ -1,13 +1,21 @@
 class Solution {
 public:
     int numEquivDominoPairs(vector<vector<int>>& dominoes) {
-        vector<int> num(100);
-        int ret = 0;
-        for (auto& it : dominoes) {
-            int val = it[0] < it[1] ? it[0] * 10 + it[1] : it[1] * 10 + it[0];
-            ret += num[val];
-            num[val]++;
+        unordered_map<int,int>mp;
+        int val=0;
+        for(int i=0;i<dominoes.size();i++){
+            if(dominoes[i][0]<dominoes[i][1]){
+                val=dominoes[i][0]*10+dominoes[i][1];
+                mp[val]++;
+            }else {
+                 val=dominoes[i][1]*10+dominoes[i][0];
+                 mp[val]++;
+            }
         }
-        return ret;
+        int count=0;
+        for(auto &[key,value]:mp){
+            if(value>1)count+=value*(value-1)/2;
+        }
+        return count;
     }
 };
