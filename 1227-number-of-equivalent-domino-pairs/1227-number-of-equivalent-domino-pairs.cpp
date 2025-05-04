@@ -12,6 +12,7 @@ public:
                  mp[val]++;
             }
         }
+        
         int count=0;
         for(auto &[key,value]:mp){
             if(value>1)count+=value*(value-1)/2;
