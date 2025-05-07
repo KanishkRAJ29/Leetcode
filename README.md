@@ -88,10 +88,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/KanishkRAJ29/Leetcode/tree/master/0744-network-delay-time) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/KanishkRAJ29/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Breadth-First Search
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/KanishkRAJ29/Leetcode/tree/master/0744-network-delay-time) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/KanishkRAJ29/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 ## Union Find
 |  |
@@ -101,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Graph
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/KanishkRAJ29/Leetcode/tree/master/0744-network-delay-time) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/KanishkRAJ29/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
@@ -189,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/KanishkRAJ29/Leetcode/tree/master/0744-network-delay-time) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/KanishkRAJ29/Leetcode/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 ## Monotonic Stack
@@ -251,5 +255,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [0744-network-delay-time](https://github.com/KanishkRAJ29/Leetcode/tree/master/0744-network-delay-time) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 <!---LeetCode Topics End-->
