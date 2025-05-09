@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0868-push-dominoes](https://github.com/KanishkRAJ29/Leetcode/tree/master/0868-push-dominoes) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/KanishkRAJ29/Leetcode/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/KanishkRAJ29/Leetcode/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3637-count-number-of-balanced-permutations](https://github.com/KanishkRAJ29/Leetcode/tree/master/3637-count-number-of-balanced-permutations) |
 ## Math
 |  |
 | ------- |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2998-count-symmetric-integers](https://github.com/KanishkRAJ29/Leetcode/tree/master/2998-count-symmetric-integers) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/KanishkRAJ29/Leetcode/tree/master/3243-count-the-number-of-powerful-integers) |
 | [3548-find-the-count-of-good-integers](https://github.com/KanishkRAJ29/Leetcode/tree/master/3548-find-the-count-of-good-integers) |
+| [3637-count-number-of-balanced-permutations](https://github.com/KanishkRAJ29/Leetcode/tree/master/3637-count-number-of-balanced-permutations) |
 ## Backtracking
 |  |
 | ------- |
@@ -72,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1993-sum-of-all-subset-xor-totals](https://github.com/KanishkRAJ29/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/KanishkRAJ29/Leetcode/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3548-find-the-count-of-good-integers](https://github.com/KanishkRAJ29/Leetcode/tree/master/3548-find-the-count-of-good-integers) |
+| [3637-count-number-of-balanced-permutations](https://github.com/KanishkRAJ29/Leetcode/tree/master/3637-count-number-of-balanced-permutations) |
 ## Enumeration
 |  |
 | ------- |
@@ -137,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0868-push-dominoes](https://github.com/KanishkRAJ29/Leetcode/tree/master/0868-push-dominoes) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/KanishkRAJ29/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [3243-count-the-number-of-powerful-integers](https://github.com/KanishkRAJ29/Leetcode/tree/master/3243-count-the-number-of-powerful-integers) |
+| [3637-count-number-of-balanced-permutations](https://github.com/KanishkRAJ29/Leetcode/tree/master/3637-count-number-of-balanced-permutations) |
 ## Recursion
 |  |
 | ------- |
