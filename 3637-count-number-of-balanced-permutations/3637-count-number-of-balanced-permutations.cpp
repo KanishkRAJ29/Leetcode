@@ -1,67 +1,89 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+static const int MOD = 1e9+7;
+
+long long modexp(long long a, long long e=MOD-2) {
+    long long r = 1;
+    while (e) {
+        if (e & 1) r = r * a % MOD;
+        a = a * a % MOD;
+        e >>= 1;
+    }
+    return r;
+}
+
 class Solution {
 public:
-    constexpr static long long MOD = 1e9 + 7;
-
     int countBalancedPermutations(string num) {
-        int tot = 0, n = num.size();
-        vector<int> cnt(10);
-        for (char ch : num) {
-            int d = ch - '0';
+        int n = num.size();
+        vector<int> cnt(10, 0);
+        int S = 0;
+        for (char c : num) {
+            int d = c - '0';
             cnt[d]++;
-            tot += d;
+            S += d;
         }
-        if (tot % 2 != 0) {
+        // total sum must be even
+        if (S & 1) return 0;
+        int half = S / 2;
+        int n_even = (n + 1) / 2;
+        int n_odd  = n / 2;
+
+        // precompute factorials up to n
+        vector<long long> fact(n+1, 1);
+        for (int i = 1; i <= n; i++) 
+            fact[i] = fact[i-1] * i % MOD;
+
+        // dp[i][s] = number of ways (∏ C(cnt[k], t_k)) 
+        // to pick exactly i items into the even slots summing to s
+        vector<vector<long long>> dp(n_even+1, vector<long long>(half+1, 0));
+        dp[0][0] = 1;
+
+        // transition digit by digit
+        for (int d = 0; d <= 9; d++) {
+            int c = cnt[d];
+            if (c == 0) continue;  // no change
+            // precompute C(c, t) for t=0..c
+            vector<long long> Cc(c+1, 1);
+            for (int t = 0; t <= c; t++) {
+                // C(c, t) = fact[c] / (fact[t]*fact[c-t])
+                Cc[t] = fact[c] 
+                      * modexp(fact[t] * fact[c-t] % MOD) 
+                      % MOD;
+            }
+            // build next layer
+            vector<vector<long long>> ndp(n_even+1, vector<long long>(half+1, 0));
+            for (int i = 0; i <= n_even; i++) {
+                for (int s = 0; s <= half; s++) {
+                    long long ways = dp[i][s];
+                    if (!ways) continue;
+                    // assign t of digit d into even‑slots
+                    for (int t = 0; t <= c && i + t <= n_even && s + d*t <= half; t++) {
+                        ndp[i + t][s + d*t] = (ndp[i + t][s + d*t]
+                                             + ways * Cc[t]) % MOD;
+                    }
+                }
+            }
+            dp.swap(ndp);
+        }
+
+        long long chooseWays = dp[n_even][half];
+        if (!chooseWays) 
             return 0;
-        }
 
-        int target = tot / 2;
-        int maxOdd = (n + 1) / 2;
-        vector<int> psum(11);
-        vector<vector<long long>> comb(maxOdd + 1,
-                                       vector<long long>(maxOdd + 1));
-        long long memo[10][target + 1][maxOdd + 1];
-        memset(memo, 0xff, sizeof(memo));
-        for (int i = 0; i <= maxOdd; i++) {
-            comb[i][i] = comb[i][0] = 1;
-            for (int j = 1; j < i; j++) {
-                comb[i][j] = (comb[i - 1][j] + comb[i - 1][j - 1]) % MOD;
-            }
-        }
-        for (int i = 9; i >= 0; i--) {
-            psum[i] = psum[i + 1] + cnt[i];
-        }
+        // multiply by permutations within even/odd positions
+        // and divide by identical‑digit overcount
+        long long ans = chooseWays
+                      * fact[n_even] % MOD
+                      * fact[n_odd]  % MOD;
 
-        function<long long(int, int, int)> dfs = [&](int pos, int curr,
-                                                     int oddCnt) -> long long {
-            /* If the remaining positions cannot be legally filled, or if the
-             * sum of the elements at the current odd positions is greater than
-             * the target value */
-            if (oddCnt < 0 || psum[pos] < oddCnt || curr > target) {
-                return 0;
-            }
-            if (pos > 9) {
-                return curr == target && oddCnt == 0;
-            }
-            if (memo[pos][curr][oddCnt] != -1) {
-                return memo[pos][curr][oddCnt];
-            }
-            /* Even-numbered positions remaining to be filled */
-            int evenCnt = psum[pos] - oddCnt;
-            long long res = 0;
-            for (int i = max(0, cnt[pos] - evenCnt); i <= min(cnt[pos], oddCnt);
-                 i++) {
-                /* The current digit is filled with i positions at odd
-                 * positions, and cnt[pos] - i positions at even positions */
-                long long ways =
-                    comb[oddCnt][i] * comb[evenCnt][cnt[pos] - i] % MOD;
-                res = (res +
-                       ways * dfs(pos + 1, curr + i * pos, oddCnt - i) % MOD) %
-                      MOD;
-            }
-            memo[pos][curr][oddCnt] = res;
-            return res;
-        };
+        // denominator = ∏ fact[cnt[d]]
+        long long denom = 1;
+        for (int d = 0; d < 10; d++) 
+            denom = denom * fact[cnt[d]] % MOD;
 
-        return dfs(0, 0, maxOdd);
+        ans = ans * modexp(denom) % MOD;
+        return (int)ans;
     }
 };
