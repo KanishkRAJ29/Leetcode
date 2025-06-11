@@ -1,45 +1,36 @@
 class Solution {
 public:
-    void bfs(int startNode, vector<int>& edges, vector<int>& dist) {
-        int n = edges.size();
-        queue<int> q;
-        q.push(startNode);
-
-        vector<bool> visit(n);
-        dist[startNode] = 0;
-
-        while (!q.empty()) {
-            int node = q.front();
-            q.pop();
-
-            if (visit[node]) {
-                continue;
-            }
-
-            visit[node] = true;
-            int neighbor = edges[node];
-            if (neighbor != -1 && !visit[neighbor]) {
-                dist[neighbor] = 1 + dist[node];
-                q.push(neighbor);
-            }
-        }
-    }
-
     int closestMeetingNode(vector<int>& edges, int node1, int node2) {
         int n = edges.size();
-        vector<int> dist1(n, numeric_limits<int>::max()), dist2(n, numeric_limits<int>::max());
-
-        bfs(node1, edges, dist1);
-        bfs(node2, edges, dist2);
-
-        int minDistNode = -1, minDistTillNow = numeric_limits<int>::max();
-        for (int currNode = 0; currNode < n; currNode++) {
-            if (minDistTillNow > max(dist1[currNode], dist2[currNode])) {
-                minDistNode = currNode;
-                minDistTillNow = max(dist1[currNode], dist2[currNode]);
+        // dist1[i] = distance from node1 to i (or INT_MAX if unreachable)
+        // dist2[i] = distance from node2 to i (or INT_MAX if unreachable)
+        vector<int> dist1(n, INT_MAX), dist2(n, INT_MAX);
+        
+        // Helper to fill dist[] by walking the functional graph
+        auto fillDist = [&](int start, vector<int>& dist) {
+            int d = 0, u = start;
+            while (u != -1 && dist[u] == INT_MAX) {
+                dist[u] = d++;
+                u = edges[u];
+            }
+        };
+        
+        fillDist(node1, dist1);
+        fillDist(node2, dist2);
+        
+        int answer = -1;
+        int bestMaxDist = INT_MAX;
+        // Check every node i as a candidate
+        for (int i = 0; i < n; i++) {
+            if (dist1[i] == INT_MAX || dist2[i] == INT_MAX) continue;
+            int m = max(dist1[i], dist2[i]);
+            // minimize the maximum of the two distances
+            if (m < bestMaxDist || (m == bestMaxDist && i < answer)) {
+                bestMaxDist = m;
+                answer = i;
             }
         }
-
-        return minDistNode;
+        
+        return answer;
     }
 };
