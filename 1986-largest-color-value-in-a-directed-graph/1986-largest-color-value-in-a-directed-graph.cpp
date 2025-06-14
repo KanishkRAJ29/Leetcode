@@ -2,43 +2,46 @@ class Solution {
 public:
     int largestPathValue(string colors, vector<vector<int>>& edges) {
         int n = colors.size();
-        vector<vector<int>> adj(n);
-        vector<int> indegree(n);
-        
-        // Build graph and indegree count
-        for (auto& e : edges) {
-            adj[e[0]].push_back(e[1]);
-            indegree[e[1]]++;
+        unordered_map<int, vector<int>> adj;
+        vector<int> indeg(n, 0);
+
+        for (auto &edge : edges) {
+            int u = edge[0], v = edge[1];
+            adj[u].push_back(v);
+            indeg[v]++;
         }
-        
+
         queue<int> q;
-        for (int i = 0; i < n; i++)
-            if (indegree[i] == 0)
+        vector<vector<int>> dp(n, vector<int>(26, 0));
+
+        for (int i = 0; i < n; ++i) {
+            if (indeg[i] == 0) {
                 q.push(i);
-        
-        vector<array<int,26>> dp(n);
-        for (int i = 0; i < n; i++)
-            dp[i].fill(0);
-        
-        int seen = 0, ans = 0;
-        
-        // Topological traversal
+                dp[i][colors[i] - 'a'] = 1;  // Initialize color count for source nodes
+            }
+        }
+
+        int answer = 0, count = 0;
         while (!q.empty()) {
             int u = q.front(); q.pop();
-            seen++;
-            int c = colors[u] - 'a';
-            dp[u][c]++;
-            ans = max(ans, dp[u][c]);
-            
-            for (int v : adj[u]) {
-                for (int k = 0; k < 26; k++)
-                    dp[v][k] = max(dp[v][k], dp[u][k]);
-                if (--indegree[v] == 0)
+            count++;
+
+            for (int i = 0; i < 26; i++) {
+                answer = max(answer, dp[u][i]);
+            }
+
+            for (int &v : adj[u]) {
+                for (int i = 0; i < 26; i++) {
+                    int extra = (colors[v] - 'a' == i) ? 1 : 0;
+                    dp[v][i] = max(dp[v][i], dp[u][i] + extra);
+                }
+                indeg[v]--;
+                if (indeg[v] == 0)
                     q.push(v);
             }
         }
-        
-        // If not all nodes were visited, there is a cycle
-        return seen == n ? ans : -1;
+
+        if (count < n) return -1; // cycle exists
+        return answer;
     }
 };
