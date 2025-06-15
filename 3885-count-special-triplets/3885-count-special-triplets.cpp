@@ -1,6 +1,20 @@
 class Solution {
 public:
-    int MOD;
+    int MOD = 1e9 + 7;
+
+    long long modInverse(long long a, int mod) {
+        long long res = 1;
+        long long power = mod - 2;
+
+        while (power > 0) {
+            if (power % 2 == 1)
+                res = (res * a) % mod;
+            a = (a * a) % mod;
+            power /= 2;
+        }
+
+        return res;
+    }
 
     int findCount(const vector<int>& indices, int midind) {
         int small = upper_bound(indices.begin(), indices.end(), midind) - indices.begin();
@@ -18,7 +32,6 @@ public:
             sort(vec.begin(), vec.end()); // Required for binary search
         }
 
-        MOD = 1e9 + 7;
         long long ans = 0;
 
         sort(nums.begin(), nums.end(), greater<int>());
@@ -35,7 +48,8 @@ public:
             if (x == mid) {
                 int n = midIndices.size();
                 if (n >= 3) {
-                    ans = (ans + (1LL * n * (n - 1) % MOD * (n - 2) % MOD * 166666668LL) % MOD) % MOD;
+                    long long inv6 = modInverse(6, MOD);
+                    ans = (ans + ((1LL * n * (n - 1) % MOD * (n - 2) % MOD) * inv6 % MOD)) % MOD;
                 }
                 continue;
             }
