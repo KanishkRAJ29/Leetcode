@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/KanishkRAJ29/Leetcode/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/KanishkRAJ29/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/KanishkRAJ29/Leetcode/tree/master/0075-sort-colors) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/KanishkRAJ29/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0135-candy](https://github.com/KanishkRAJ29/Leetcode/tree/master/0135-candy) |
 | [0174-dungeon-game](https://github.com/KanishkRAJ29/Leetcode/tree/master/0174-dungeon-game) |
 | [0189-rotate-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/0189-rotate-array) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/KanishkRAJ29/Leetcode/tree/master/0053-maximum-subarray) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/KanishkRAJ29/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0174-dungeon-game](https://github.com/KanishkRAJ29/Leetcode/tree/master/0174-dungeon-game) |
 | [0312-burst-balloons](https://github.com/KanishkRAJ29/Leetcode/tree/master/0312-burst-balloons) |
 | [0368-largest-divisible-subset](https://github.com/KanishkRAJ29/Leetcode/tree/master/0368-largest-divisible-subset) |
