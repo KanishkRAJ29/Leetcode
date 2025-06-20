@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0135-candy](https://github.com/KanishkRAJ29/Leetcode/tree/master/0135-candy) |
 | [0174-dungeon-game](https://github.com/KanishkRAJ29/Leetcode/tree/master/0174-dungeon-game) |
 | [0189-rotate-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/0189-rotate-array) |
+| [0229-majority-element-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0229-majority-element-ii) |
 | [0307-range-sum-query-mutable](https://github.com/KanishkRAJ29/Leetcode/tree/master/0307-range-sum-query-mutable) |
 | [0312-burst-balloons](https://github.com/KanishkRAJ29/Leetcode/tree/master/0312-burst-balloons) |
 | [0368-largest-divisible-subset](https://github.com/KanishkRAJ29/Leetcode/tree/master/0368-largest-divisible-subset) |
@@ -185,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0056-merge-intervals](https://github.com/KanishkRAJ29/Leetcode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/KanishkRAJ29/Leetcode/tree/master/0075-sort-colors) |
+| [0229-majority-element-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0229-majority-element-ii) |
 | [0368-largest-divisible-subset](https://github.com/KanishkRAJ29/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/KanishkRAJ29/Leetcode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2215-finding-3-digit-even-numbers](https://github.com/KanishkRAJ29/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
@@ -198,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/KanishkRAJ29/Leetcode/tree/master/0073-set-matrix-zeroes) |
+| [0229-majority-element-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0229-majority-element-ii) |
 | [0797-rabbits-in-forest](https://github.com/KanishkRAJ29/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/KanishkRAJ29/Leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1500-count-largest-group](https://github.com/KanishkRAJ29/Leetcode/tree/master/1500-count-largest-group) |
@@ -372,6 +375,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0229-majority-element-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0229-majority-element-ii) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/KanishkRAJ29/Leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/KanishkRAJ29/Leetcode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/KanishkRAJ29/Leetcode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
