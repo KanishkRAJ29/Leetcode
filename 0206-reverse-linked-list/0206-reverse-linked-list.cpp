@@ -11,17 +11,13 @@
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-     if (head == NULL || head->next == NULL)
-            return head;
- 
-        /* reverse the rest list and put
-          the first element at the end */
-        ListNode* rest = reverseList(head->next);
-        head->next->next = head;
- 
-        /* tricky step -- see the diagram */
-        head->next = NULL;
- 
-        /* fix the head pointer */
-        return rest;}
+        ListNode* node=NULL;
+        while(head!=NULL){
+            ListNode* temp=head->next;
+            head->next=node;
+            node=head;
+            head=temp;
+        }
+        return node;
+    }
 };
