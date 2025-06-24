@@ -4,18 +4,20 @@ public:
         
         
         int n=nums.size();
-        set<int>st;
+        vector<int>ans;
+        
+        int mini=0;
         for(int i=0;i<nums.size();i++){
             if(nums[i]==key){
-                for(int j=max(0,i-k);j<=i+k&&j<n;j++){
-                    if(abs(i-j)<=k)st.insert(j);
+                int l=max(mini,i-k);
+                mini=min(n-1,i+k)+1;
+
+                for(int j=l;j<mini;j++){
+                    if(abs(i-j)<=k)ans.push_back(j);
                 }
             }
         }
-        vector<int>ans;
-        for(int s:st){
-            ans.push_back(s);
-        }
+        
     return ans;
     }
 };
