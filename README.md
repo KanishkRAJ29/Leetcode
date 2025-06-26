@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0015-3sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/0015-3sum) |
 | [0031-next-permutation](https://github.com/KanishkRAJ29/Leetcode/tree/master/0031-next-permutation) |
 | [0053-maximum-subarray](https://github.com/KanishkRAJ29/Leetcode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/KanishkRAJ29/Leetcode/tree/master/0056-merge-intervals) |
@@ -145,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/0015-3sum) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/KanishkRAJ29/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0031-next-permutation](https://github.com/KanishkRAJ29/Leetcode/tree/master/0031-next-permutation) |
 | [0061-rotate-list](https://github.com/KanishkRAJ29/Leetcode/tree/master/0061-rotate-list) |
@@ -196,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/KanishkRAJ29/Leetcode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/KanishkRAJ29/Leetcode/tree/master/0075-sort-colors) |
 | [0229-majority-element-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0229-majority-element-ii) |
