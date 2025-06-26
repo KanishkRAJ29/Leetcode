@@ -1,46 +1,29 @@
 class Solution {
 public:
     int trap(vector<int>& height) {
-        int ans = 0;
-        int leftlow = 0;
+    int left = 0, right = height.size() - 1;
+    int leftMax = 0, rightMax = 0;
+    int ans = 0;
 
-        while (leftlow < height.size() - 1) {
-            if (height[leftlow] == 0) {
-                leftlow++;
-                continue;
+    while (left < right) {
+        if (height[left] <= height[right]) {
+            if (height[left] >= leftMax) {
+                leftMax = height[left];
+            } else {
+                ans += leftMax - height[left];
             }
-
-            // Step 1: Find right boundary
-            int righthigh = leftlow + 1;
-            int maxRight = righthigh;
-            for (int i = righthigh; i < height.size(); i++) {
-                if (height[i] >= height[leftlow]) {
-                    righthigh = i;
-                    break;
-                }
-                if (height[i] > height[maxRight]) {
-                    maxRight = i;
-                }
+            left++;
+        } else {
+            if (height[right] >= rightMax) {
+                rightMax = height[right];
+            } else {
+                ans += rightMax - height[right];
             }
-
-            // If we found taller or equal right wall
-            if (height[righthigh] >= height[leftlow]) {
-                int boundedHeight = height[leftlow];
-                for (int i = leftlow + 1; i < righthigh; i++) {
-                    ans += (boundedHeight - height[i]);
-                }
-                leftlow = righthigh;
-            }
-            // Else: use maxRight as the best available
-            else {
-                int boundedHeight = height[maxRight];
-                for (int i = leftlow + 1; i < maxRight; i++) {
-                    ans += (boundedHeight - height[i]);
-                }
-                leftlow = maxRight;
-            }
+            right--;
         }
-
-        return ans;
     }
+
+    return ans;
+}
+
 };
