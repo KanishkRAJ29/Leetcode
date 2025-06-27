@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool isKRepated(string s,string next,int k){
+    bool isKRepated(string &s,string &next,int k){
         int i=0;
         int matched=0;
         int n=s.size();
