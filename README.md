@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/KanishkRAJ29/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/KanishkRAJ29/Leetcode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/KanishkRAJ29/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0131-palindrome-partitioning](https://github.com/KanishkRAJ29/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0174-dungeon-game](https://github.com/KanishkRAJ29/Leetcode/tree/master/0174-dungeon-game) |
 | [0312-burst-balloons](https://github.com/KanishkRAJ29/Leetcode/tree/master/0312-burst-balloons) |
 | [0368-largest-divisible-subset](https://github.com/KanishkRAJ29/Leetcode/tree/master/0368-largest-divisible-subset) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0039-combination-sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0040-combination-sum-ii) |
+| [0131-palindrome-partitioning](https://github.com/KanishkRAJ29/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/KanishkRAJ29/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/KanishkRAJ29/Leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
 ## Bit Manipulation
@@ -260,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/KanishkRAJ29/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/KanishkRAJ29/Leetcode/tree/master/0038-count-and-say) |
+| [0131-palindrome-partitioning](https://github.com/KanishkRAJ29/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0214-shortest-palindrome](https://github.com/KanishkRAJ29/Leetcode/tree/master/0214-shortest-palindrome) |
 | [0686-repeated-string-match](https://github.com/KanishkRAJ29/Leetcode/tree/master/0686-repeated-string-match) |
 | [0868-push-dominoes](https://github.com/KanishkRAJ29/Leetcode/tree/master/0868-push-dominoes) |
