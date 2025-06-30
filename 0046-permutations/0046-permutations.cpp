@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<vector<int>>ans;
 
-    void solve(vector<int>temp,vector<int>&nums){
+    void solve(vector<int>&temp,vector<int>&nums){
         if(temp.size()==nums.size())ans.push_back(temp);
         for(int i=0;i<nums.size();i++){
             if(find(temp.begin(),temp.end(),nums[i])==temp.end()){
