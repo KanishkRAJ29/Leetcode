@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/KanishkRAJ29/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/KanishkRAJ29/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0135-candy](https://github.com/KanishkRAJ29/Leetcode/tree/master/0135-candy) |
+| [0140-word-break-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0140-word-break-ii) |
 | [0174-dungeon-game](https://github.com/KanishkRAJ29/Leetcode/tree/master/0174-dungeon-game) |
 | [0189-rotate-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/0189-rotate-array) |
 | [0229-majority-element-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0229-majority-element-ii) |
@@ -81,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/KanishkRAJ29/Leetcode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/KanishkRAJ29/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/KanishkRAJ29/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [0140-word-break-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0140-word-break-ii) |
 | [0174-dungeon-game](https://github.com/KanishkRAJ29/Leetcode/tree/master/0174-dungeon-game) |
 | [0312-burst-balloons](https://github.com/KanishkRAJ29/Leetcode/tree/master/0312-burst-balloons) |
 | [0368-largest-divisible-subset](https://github.com/KanishkRAJ29/Leetcode/tree/master/0368-largest-divisible-subset) |
@@ -132,6 +134,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0040-combination-sum-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/KanishkRAJ29/Leetcode/tree/master/0046-permutations) |
 | [0131-palindrome-partitioning](https://github.com/KanishkRAJ29/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [0140-word-break-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0140-word-break-ii) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/KanishkRAJ29/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/KanishkRAJ29/Leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
 ## Bit Manipulation
@@ -242,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/KanishkRAJ29/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/KanishkRAJ29/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0138-copy-list-with-random-pointer](https://github.com/KanishkRAJ29/Leetcode/tree/master/0138-copy-list-with-random-pointer) |
+| [0140-word-break-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0140-word-break-ii) |
 | [0142-linked-list-cycle-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/KanishkRAJ29/Leetcode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0229-majority-element-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0229-majority-element-ii) |
@@ -272,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/KanishkRAJ29/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/KanishkRAJ29/Leetcode/tree/master/0038-count-and-say) |
 | [0131-palindrome-partitioning](https://github.com/KanishkRAJ29/Leetcode/tree/master/0131-palindrome-partitioning) |
+| [0140-word-break-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0140-word-break-ii) |
 | [0214-shortest-palindrome](https://github.com/KanishkRAJ29/Leetcode/tree/master/0214-shortest-palindrome) |
 | [0686-repeated-string-match](https://github.com/KanishkRAJ29/Leetcode/tree/master/0686-repeated-string-match) |
 | [0868-push-dominoes](https://github.com/KanishkRAJ29/Leetcode/tree/master/0868-push-dominoes) |
@@ -483,11 +488,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Memoization
 |  |
 | ------- |
+| [0140-word-break-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0140-word-break-ii) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/KanishkRAJ29/Leetcode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/KanishkRAJ29/Leetcode/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 ## Trie
 |  |
 | ------- |
+| [0140-word-break-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0140-word-break-ii) |
 | [0386-lexicographical-numbers](https://github.com/KanishkRAJ29/Leetcode/tree/master/0386-lexicographical-numbers) |
 | [0440-k-th-smallest-in-lexicographical-order](https://github.com/KanishkRAJ29/Leetcode/tree/master/0440-k-th-smallest-in-lexicographical-order) |
 ## Linked List
