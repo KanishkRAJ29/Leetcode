@@ -22,11 +22,13 @@ public:
             long long l_idx=q.front().second;
             long long r_idx=q.back().second;
             
+            maxi = max(maxi, int(r_idx - l_idx + 1));
             
             for(int i=0;i<n;i++){
                 auto element = q.front();
                 q.pop();
                 auto idx=element.second;
+
                  if (element.first->left)  q.push({element.first->left, (long long) 2 * idx});
                 // if it has the right node, push it for the next level
                 // with idx = 2 * cur_idx + 1
@@ -34,7 +36,6 @@ public:
                     
 
             }
-           maxi = max(maxi, int(r_idx - l_idx + 1));
         }
         return maxi;
     }
