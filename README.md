@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0140-word-break-ii) |
 | [0174-dungeon-game](https://github.com/KanishkRAJ29/Leetcode/tree/master/0174-dungeon-game) |
 | [0189-rotate-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/0189-rotate-array) |
+| [0200-number-of-islands](https://github.com/KanishkRAJ29/Leetcode/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0229-majority-element-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/KanishkRAJ29/Leetcode/tree/master/0239-sliding-window-maximum) |
@@ -233,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/KanishkRAJ29/Leetcode/tree/master/0133-clone-graph) |
 | [0144-binary-tree-preorder-traversal](https://github.com/KanishkRAJ29/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/KanishkRAJ29/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
+| [0200-number-of-islands](https://github.com/KanishkRAJ29/Leetcode/tree/master/0200-number-of-islands) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/KanishkRAJ29/Leetcode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/KanishkRAJ29/Leetcode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/KanishkRAJ29/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -253,6 +255,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0107-binary-tree-level-order-traversal-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0107-binary-tree-level-order-traversal-ii) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/KanishkRAJ29/Leetcode/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0133-clone-graph](https://github.com/KanishkRAJ29/Leetcode/tree/master/0133-clone-graph) |
+| [0200-number-of-islands](https://github.com/KanishkRAJ29/Leetcode/tree/master/0200-number-of-islands) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/KanishkRAJ29/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/KanishkRAJ29/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0744-network-delay-time](https://github.com/KanishkRAJ29/Leetcode/tree/master/0744-network-delay-time) |
@@ -265,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/KanishkRAJ29/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0200-number-of-islands](https://github.com/KanishkRAJ29/Leetcode/tree/master/0200-number-of-islands) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/KanishkRAJ29/Leetcode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/KanishkRAJ29/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
@@ -591,6 +595,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/KanishkRAJ29/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0174-dungeon-game](https://github.com/KanishkRAJ29/Leetcode/tree/master/0174-dungeon-game) |
+| [0200-number-of-islands](https://github.com/KanishkRAJ29/Leetcode/tree/master/0200-number-of-islands) |
 | [0945-snakes-and-ladders](https://github.com/KanishkRAJ29/Leetcode/tree/master/0945-snakes-and-ladders) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
