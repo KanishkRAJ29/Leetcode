@@ -244,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0543-diameter-of-binary-tree](https://github.com/KanishkRAJ29/Leetcode/tree/master/0543-diameter-of-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/KanishkRAJ29/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0744-network-delay-time](https://github.com/KanishkRAJ29/Leetcode/tree/master/0744-network-delay-time) |
+| [0801-is-graph-bipartite](https://github.com/KanishkRAJ29/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/KanishkRAJ29/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/KanishkRAJ29/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/KanishkRAJ29/Leetcode/tree/master/2438-find-closest-node-to-given-two-nodes) |
@@ -261,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/KanishkRAJ29/Leetcode/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/KanishkRAJ29/Leetcode/tree/master/0662-maximum-width-of-binary-tree) |
 | [0744-network-delay-time](https://github.com/KanishkRAJ29/Leetcode/tree/master/0744-network-delay-time) |
+| [0801-is-graph-bipartite](https://github.com/KanishkRAJ29/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0945-snakes-and-ladders](https://github.com/KanishkRAJ29/Leetcode/tree/master/0945-snakes-and-ladders) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/KanishkRAJ29/Leetcode/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/KanishkRAJ29/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
@@ -271,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/KanishkRAJ29/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0200-number-of-islands](https://github.com/KanishkRAJ29/Leetcode/tree/master/0200-number-of-islands) |
+| [0801-is-graph-bipartite](https://github.com/KanishkRAJ29/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/KanishkRAJ29/Leetcode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/KanishkRAJ29/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [3838-path-existence-queries-in-a-graph-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3838-path-existence-queries-in-a-graph-i) |
@@ -279,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0133-clone-graph](https://github.com/KanishkRAJ29/Leetcode/tree/master/0133-clone-graph) |
 | [0744-network-delay-time](https://github.com/KanishkRAJ29/Leetcode/tree/master/0744-network-delay-time) |
+| [0801-is-graph-bipartite](https://github.com/KanishkRAJ29/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/KanishkRAJ29/Leetcode/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/KanishkRAJ29/Leetcode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/KanishkRAJ29/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
