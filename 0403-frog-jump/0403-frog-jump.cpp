@@ -1,5 +1,40 @@
 class Solution {
 public:
+    unordered_map<int, int> stoneIndex;
+    bool canCross(vector<int>& stones) {
+        int n = stones.size();
+        for (int i = 0; i < n; ++i) {
+            stoneIndex[stones[i]] = i;
+        }
+        vector<vector<int>> dp(n, vector<int>(n + 1, false));
+        dp[0][0]=true;
+        for(int i=0;i<n;i++){
+            for(int k=0;k<=n;k++){
+                if(dp[i][k]){
+                    for(int jump=k-1;jump<=k+1;jump++){
+                        if(jump>0){
+                            int next_stone=stones[i]+jump;
+                            if(stoneIndex.find(next_stone)!=stoneIndex.end()){
+                                int nextind=stoneIndex[next_stone];
+                                dp[nextind][jump]=true;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        for (int k = 0; k <= n; ++k) {
+    if (dp[n - 1][k]) return true;
+}
+return false;
+
+    }
+    
+};
+
+/*
+class Solution {
+public:
     unordered_map<int, int> stoneIndex;  // Map from stone value to index
 
     bool solve(vector<int>& stones, int ind, int lastj, vector<vector<int>>& dp) {
@@ -32,3 +67,5 @@ public:
         return solve(stones, 0, 0, dp);
     }
 };
+
+*/
