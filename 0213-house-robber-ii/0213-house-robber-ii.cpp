@@ -1,5 +1,37 @@
 class Solution {
 public:
+    int solve(int start,int end,vector<int>&nums){
+        
+
+        int second_prev=0;
+        int prev=nums[start];
+        for(int i=2;i<=end-start+1;i++){
+            int take=nums[start+i-1]+second_prev;
+            int skip=prev;
+            
+            second_prev=prev;
+            prev=max(take,skip);
+        }
+        return prev;
+    }
+    int rob(vector<int>& nums) {
+         int n = nums.size();
+        if (n == 1) return nums[0]; // Edge case: only one house
+        
+        // Create memoization table and initialize to -1
+        
+        
+
+        
+        int caseo=solve(0,n-2,nums);
+        
+        int caset=solve(1,n-1,nums);
+        return max(caseo,caset);
+    }
+};
+
+/*class Solution {
+public:
     int n;
     int solve(int start,int end,vector<int>&nums){
         vector<int> t(end-start+1+1,0);
@@ -27,7 +59,7 @@ public:
         int caset=solve(1,n-1,nums);
         return max(caseo,caset);
     }
-};
+};*/
 
 /*class Solution {
 public:
