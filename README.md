@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0046-permutations](https://github.com/KanishkRAJ29/Leetcode/tree/master/0046-permutations) |
 | [0053-maximum-subarray](https://github.com/KanishkRAJ29/Leetcode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/KanishkRAJ29/Leetcode/tree/master/0056-merge-intervals) |
+| [0064-minimum-path-sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/KanishkRAJ29/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/KanishkRAJ29/Leetcode/tree/master/0075-sort-colors) |
 | [0084-largest-rectangle-in-histogram](https://github.com/KanishkRAJ29/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/KanishkRAJ29/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/KanishkRAJ29/Leetcode/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/KanishkRAJ29/Leetcode/tree/master/0062-unique-paths) |
+| [0064-minimum-path-sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0072-edit-distance](https://github.com/KanishkRAJ29/Leetcode/tree/master/0072-edit-distance) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/KanishkRAJ29/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -624,6 +626,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0064-minimum-path-sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/KanishkRAJ29/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0174-dungeon-game](https://github.com/KanishkRAJ29/Leetcode/tree/master/0174-dungeon-game) |
 | [0200-number-of-islands](https://github.com/KanishkRAJ29/Leetcode/tree/master/0200-number-of-islands) |
