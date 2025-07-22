@@ -36,12 +36,16 @@ public:
 class Solution {
 public:
     int uniquePaths(int m, int n) {
-        vector<int>dp(n,1);
+        vector<int> prev(n, 1); // last row (base case)
+
         for (int i = m - 2; i >= 0; --i) {
+            vector<int> curr(n, 1); // reset current row
             for (int j = n - 2; j >= 0; --j) {
-                dp[j] = dp[j] + dp[j + 1];
+                curr[j] = curr[j + 1] + prev[j]; // right + down
             }
+            prev = curr;
         }
-        return dp[0];
+
+        return prev[0];
     }
 };
