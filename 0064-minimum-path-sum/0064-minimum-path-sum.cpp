@@ -1,7 +1,31 @@
 class Solution {
 public:
+    int minPathSum(vector<vector<int>>& grid) {
+        
+        int m = grid.size();
+        int n = grid[0].size();
+        vector<int> next(n, 0); // row below the current one
+
+        // Initialize the bottom-most row
+        next[n - 1] = grid[m - 1][n - 1];
+        for (int j = n - 2; j >= 0; j--) {
+            next[j] = grid[m - 1][j] + next[j + 1];
+        }
+        for (int i = m - 2; i >= 0; i--) {
+            vector<int> curr(n, 0);
+            curr[n - 1] = grid[i][n - 1] + next[n - 1]; // last column
+            for (int j = n - 2; j >= 0; j--) {
+                curr[j] = grid[i][j] + min(curr[j + 1], next[j]);
+            }
+            next = curr;
+        }
+
+        return next[0];
+    }
+};/*class Solution {
+public:
     
-/*
+
     int solve(int i, int j, vector<vector<int>>& grid) {
         // Base case: bottom-right corner
         if (i == grid.size() - 1 && j == grid[0].size() - 1) 
@@ -23,7 +47,7 @@ public:
         dp[i][j] = grid[i][j] + min(down, right);
         return dp[i][j];
     }
-*/
+*//*
     int minPathSum(vector<vector<int>>& grid) {
         int m=grid.size();
         int n=grid[0].size();
@@ -45,3 +69,4 @@ public:
         return dp[0][0];
     }
 };
+*/
