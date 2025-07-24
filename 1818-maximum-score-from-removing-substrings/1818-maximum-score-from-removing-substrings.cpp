@@ -1,55 +1,43 @@
 class Solution {
 public:
     int maximumGain(string s, int x, int y) {
-        int totalScore = 0;
-        string highPriorityPair = x > y ? "ab" : "ba";
-        string lowPriorityPair = highPriorityPair == "ab" ? "ba" : "ab";
+        // Ensure "ab" always has more points than "ba"
+        if (x < y) {
+            // Swap points
+            int temp = x;
+            x = y;
+            y = temp;
+            // Reverse the string to maintain logic
+            reverse(s.begin(), s.end());
+        }
 
-        // First pass: remove high priority pair
-        string stringAfterFirstPass = removeSubstring(s, highPriorityPair);
-        int removedPairsCount =
-            (s.length() - stringAfterFirstPass.length()) / 2;
+        int aCount = 0, bCount = 0, totalPoints = 0;
 
-        // Calculate score from first pass
-        totalScore += removedPairsCount * max(x, y);
+        for (int i = 0; i < s.size(); ++i) {
+            char currentChar = s[i];
 
-        // Second pass: remove low priority pair
-        string stringAfterSecondPass =
-            removeSubstring(stringAfterFirstPass, lowPriorityPair);
-        removedPairsCount =
-            (stringAfterFirstPass.length() - stringAfterSecondPass.length()) /
-            2;
-
-        // Calculate score from second pass
-        totalScore += removedPairsCount * min(x, y);
-
-        return totalScore;
-    }
-
-private:
-    string removeSubstring(const string& input, const string& targetPair) {
-        stack<char> charStack;
-
-        // Iterate through each character in the input string
-        for (char currentChar : input) {
-            // Check if current character forms the target pair with the top of
-            // the stack
-            if (currentChar == targetPair[1] && !charStack.empty() &&
-                charStack.top() == targetPair[0]) {
-                charStack
-                    .pop();  // Remove the matching character from the stack
+            if (currentChar == 'a') {
+                ++aCount;
+            } else if (currentChar == 'b') {
+                if (aCount > 0) {
+                    // Can form "ab", remove it and add points
+                    --aCount;
+                    totalPoints += x;
+                } else {
+                    // Can't form "ab", keep 'b' for potential future "ba"
+                    ++bCount;
+                }
             } else {
-                charStack.push(currentChar);
+                // Non 'a' or 'b' character encountered
+                // Calculate points for any remaining "ba" pairs
+                totalPoints += min(bCount, aCount) * y;
+                // Reset counters for next segment
+                aCount = bCount = 0;
             }
         }
+        // Calculate points for any remaining "ba" pairs at the end
+        totalPoints += min(bCount, aCount) * y;
 
-        // Reconstruct the remaining string after removing target pairs
-        string remainingChars;
-        while (!charStack.empty()) {
-            remainingChars += charStack.top();
-            charStack.pop();
-        }
-        reverse(remainingChars.begin(), remainingChars.end());
-        return remainingChars;
+        return totalPoints;
     }
 };
