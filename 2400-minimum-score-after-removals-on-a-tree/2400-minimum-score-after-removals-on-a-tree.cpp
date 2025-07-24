@@ -1,57 +1,83 @@
+/************************************************************ C++ ************************************************/
+//Approach - Using DFS
+//T.C : O(n^2)
+//S.C : O(V+E), V = number of vertices and E = number of edges
 class Solution {
 public:
-    int calc(int part1, int part2, int part3) {
-        return max(part1, max(part2, part3)) - min(part1, min(part2, part3));
+    void dfs(int node, int parent, vector<int>& subtreeXor, vector<int>& inTime, vector<int>& outTime,
+            int &timer, vector<int>& nums, unordered_map<int, vector<int>>& adj) {
+                
+            subtreeXor[node] = nums[node];
+            inTime[node] = timer;
+            timer++;
+            for(int &ngbr : adj[node]) {
+                if(ngbr != parent) {
+                    dfs(ngbr, node, subtreeXor, inTime, outTime, timer, nums, adj);
+                    subtreeXor[node] ^= subtreeXor[ngbr];
+                }
+            }
+            outTime[node] = timer;
+            timer++;
     }
 
-    int minimumScore(vector<int> &nums, vector<vector<int>> &edges) {
-        int n = nums.size();
-        vector<vector<int>> e(n);
-        for (auto &v : edges) {
-            e[v[0]].push_back(v[1]);
-            e[v[1]].push_back(v[0]);
+    bool isAncestor(int u, int v, vector<int>& inTime, vector<int>& outTime) {
+        return inTime[v] >= inTime[u] && outTime[v] <= outTime[u];
+    }
+
+    int getScore(int a, int b, int c) {
+        int maxXor = max({a, b, c});
+        int minXor = min({a, b, c});
+
+        return maxXor - minXor;
+    }
+    int minimumScore(vector<int>& nums, vector<vector<int>>& edges) {
+        int n = nums.size(); //Total number of nodes
+
+        unordered_map<int, vector<int>> adj; //adjacency list
+        for(auto &edge : edges) {
+            int u = edge[0];
+            int v = edge[1];
+
+            adj[u].push_back(v);
+            adj[v].push_back(u);
         }
 
-        int sum = 0;
-        for (int x : nums) {
-            sum ^= x;
+        vector<int> subtreeXor(n, 0);
+
+        vector<int> inTime(n, 0);
+        vector<int> outTime(n, 0);
+
+        int timer = 0;
+
+        //root = 0
+        dfs(0, -1, subtreeXor, inTime, outTime, timer, nums, adj);
+
+        int result = INT_MAX;
+        for(int u = 1; u < n; u++) {
+            for(int v = u+1; v < n; v++) {
+                int xor1;
+                int xor2;
+                int xor3;
+
+                if(isAncestor(u, v, inTime, outTime)) {
+                    xor1 = subtreeXor[v];
+                    xor2 = subtreeXor[u] ^ subtreeXor[v];
+                    xor3 = subtreeXor[0] ^ xor1 ^ xor2;
+                } else if(isAncestor(v, u, inTime, outTime)) {
+                    xor1 = subtreeXor[u];
+                    xor2 = subtreeXor[v] ^ subtreeXor[u];
+                    xor3 = subtreeXor[0] ^ xor1 ^ xor2;
+                } else {
+                    xor1 = subtreeXor[u];
+                    xor2 = subtreeXor[v];
+                    xor3 = subtreeXor[0] ^ xor1 ^ xor2;
+                }
+
+                result = min(result, getScore(xor1, xor2, xor3));
+            }
         }
 
-        int res = INT_MAX;
-        function<int(int, int, int, int)> dfs2 = [&](int x, int f, int oth,
-                                                     int anc) {
-            int son = nums[x];
-            for (auto &y : e[x]) {
-                if (y == f) {
-                    continue;
-                }
-                son ^= dfs2(y, x, oth, anc);
-            }
-            if (f == anc) {
-                return son;
-            }
-            res = min(res, calc(oth, son, sum ^ oth ^ son));
-            return son;
-        };
+        return result;
 
-        function<int(int, int)> dfs = [&](int x, int f) {
-            int son = nums[x];
-            for (auto &y : e[x]) {
-                if (y == f) {
-                    continue;
-                }
-                son ^= dfs(y, x);
-            }
-
-            for (auto &y : e[x]) {
-                if (y == f) {
-                    dfs2(y, x, son, x);
-                }
-            }
-            return son;
-        };
-
-        dfs(0, -1);
-        return res;
     }
 };
