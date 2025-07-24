@@ -1,6 +1,31 @@
 class Solution {
 public:
     int minFallingPathSum(vector<vector<int>>& m) {
+        
+        vector<int>prev(m.size(),0);
+        vector<int>curr(m.size(),INT_MAX);
+        for(int i=0;i<m[0].size();i++){
+            prev[i]=m[m.size()-1][i];
+        }
+        for(int x=m.size()-2;x>=0;x--){
+            for(int y=m[0].size()-1;y>=0;y--){
+                int left=INT_MAX;
+                if(y-1>=0)left=prev[y-1];
+                int right=INT_MAX;
+                if(y+1<m[0].size())right=prev[y+1];
+                curr[y]=m[x][y]+min({prev[y],left,right});
+            }
+            prev=curr;
+        }
+        int ans=INT_MAX;
+        for(int i=0;i<m[0].size();i++){
+            ans=min(ans,prev[i]);
+        }
+        return ans;
+    }
+};/*class Solution {
+public:
+    int minFallingPathSum(vector<vector<int>>& m) {
         vector<vector<int>>dp(m.size(),vector<int>(m[0].size(),INT_MAX));
         for(int i=0;i<m[0].size();i++){
             dp[m.size()-1][i]=m[m.size()-1][i];
@@ -20,7 +45,7 @@ public:
         }
         return ans;
     }
-};/*int dp[101][101];
+};*//*int dp[101][101];
 int n;
 
 int find(int x, int y, vector<vector<int>>& g)
