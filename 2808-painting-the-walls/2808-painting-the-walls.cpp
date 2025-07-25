@@ -2,18 +2,21 @@ class Solution {
 public:
     int paintWalls(vector<int>& cost, vector<int>& time) {
         int n = cost.size();
-        vector<vector<int>> dp(n + 1, vector<int>(n + 1, 0));
+        vector<int> prev(n + 1, 0);
         for (int i = 1; i <= n; i++) {
-            dp[n][i] = 1e9;
+            prev[i] = 1e9;
         }
         for(int i=n-1;i>=0;i--){
+        vector<int> curr(n + 1, 0);
+
             for(int rem=1;rem<=n;rem++){
-                int paint=cost[i]+dp[i+1][max(0,rem-1-time[i])];
-                int free=dp[i+1][rem];
-                dp[i][rem]=min(free,paint);
+                int paint=cost[i]+prev[max(0,rem-1-time[i])];
+                int free=prev[rem];
+                curr[rem]=min(free,paint);
             }
+            prev=curr;
         }
-        return dp[0][n];
+        return prev[n];
     }
 };/*class Solution {
 public:
