@@ -1,4 +1,4 @@
-class Solution {
+/*class Solution {
 public:
     const int MOD = 1e9 + 7;
     int numDistinct(string s, string t) {
@@ -23,7 +23,7 @@ public:
     }
     return (int)dp[n][m];
     }
-};/*class Solution {
+};*//*class Solution {
     vector<vector<int>> dp;
     int helper(string& s, string& t, int i, int j){
         if(i == s.size() and j == t.size()){
@@ -54,3 +54,31 @@ public:
         return helper(s, t, 0, 0);
     }
 };*/
+
+class Solution {
+public:
+    int numDistinct(string s, string t) {
+        const int MOD = 1e9 + 7;
+        int n = s.size();
+        int m = t.size();
+
+        if (m > n) return 0;
+
+        vector<long long> prev(m + 1, 0), curr(m + 1, 0);
+        prev[0] = curr[0] = 1;  // Base case: empty t can be matched by deleting all of s
+
+        for (int i = 1; i <= n; i++) {
+            curr[0] = 1;  // Every row's dp[0] is 1
+            for (int j = 1; j <= m; j++) {
+                if (s[i - 1] == t[j - 1]) {
+                    curr[j] = (prev[j - 1] + prev[j]) % MOD;
+                } else {
+                    curr[j] = prev[j] % MOD;
+                }
+            }
+            prev = curr;
+        }
+
+        return (int)prev[m];
+    }
+};
