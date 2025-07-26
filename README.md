@@ -120,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/KanishkRAJ29/Leetcode/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0072-edit-distance](https://github.com/KanishkRAJ29/Leetcode/tree/master/0072-edit-distance) |
+| [0115-distinct-subsequences](https://github.com/KanishkRAJ29/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/KanishkRAJ29/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/KanishkRAJ29/Leetcode/tree/master/0131-palindrome-partitioning) |
@@ -403,6 +404,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/KanishkRAJ29/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/KanishkRAJ29/Leetcode/tree/master/0038-count-and-say) |
 | [0072-edit-distance](https://github.com/KanishkRAJ29/Leetcode/tree/master/0072-edit-distance) |
+| [0115-distinct-subsequences](https://github.com/KanishkRAJ29/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0131-palindrome-partitioning](https://github.com/KanishkRAJ29/Leetcode/tree/master/0131-palindrome-partitioning) |
 | [0140-word-break-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0140-word-break-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/KanishkRAJ29/Leetcode/tree/master/0151-reverse-words-in-a-string) |
