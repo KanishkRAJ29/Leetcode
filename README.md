@@ -116,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/KanishkRAJ29/Leetcode/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/KanishkRAJ29/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0044-wildcard-matching](https://github.com/KanishkRAJ29/Leetcode/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/KanishkRAJ29/Leetcode/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/KanishkRAJ29/Leetcode/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/0064-minimum-path-sum) |
@@ -403,6 +404,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0008-string-to-integer-atoi](https://github.com/KanishkRAJ29/Leetcode/tree/master/0008-string-to-integer-atoi) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/KanishkRAJ29/Leetcode/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/KanishkRAJ29/Leetcode/tree/master/0038-count-and-say) |
+| [0044-wildcard-matching](https://github.com/KanishkRAJ29/Leetcode/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/KanishkRAJ29/Leetcode/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/KanishkRAJ29/Leetcode/tree/master/0115-distinct-subsequences) |
 | [0131-palindrome-partitioning](https://github.com/KanishkRAJ29/Leetcode/tree/master/0131-palindrome-partitioning) |
@@ -447,6 +449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0025-reverse-nodes-in-k-group](https://github.com/KanishkRAJ29/Leetcode/tree/master/0025-reverse-nodes-in-k-group) |
+| [0044-wildcard-matching](https://github.com/KanishkRAJ29/Leetcode/tree/master/0044-wildcard-matching) |
 | [0060-permutation-sequence](https://github.com/KanishkRAJ29/Leetcode/tree/master/0060-permutation-sequence) |
 | [0206-reverse-linked-list](https://github.com/KanishkRAJ29/Leetcode/tree/master/0206-reverse-linked-list) |
 | [2050-count-good-numbers](https://github.com/KanishkRAJ29/Leetcode/tree/master/2050-count-good-numbers) |
@@ -561,6 +564,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/KanishkRAJ29/Leetcode/tree/master/0044-wildcard-matching) |
 | [0135-candy](https://github.com/KanishkRAJ29/Leetcode/tree/master/0135-candy) |
 | [0797-rabbits-in-forest](https://github.com/KanishkRAJ29/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/KanishkRAJ29/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
