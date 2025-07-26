@@ -3,26 +3,29 @@ public:
     int minDistance(string w1, string w2) {
         int n=w1.size();
         int m=w2.size();
-        vector<vector<int>>dp(n+1,vector<int>(m+1,0));
+        vector<int>prev(m+1,0);
+        vector<int>curr(m+1,0);
         for(int i=0;i<m+1;i++){
-            dp[0][i]=i;
+            prev[i]=i;
         }
-        for(int i=0;i<n+1;i++){
-            dp[i][0]=i;
-        }
+        curr[0]=1;
         int i=1,j=1;
+        
         for( i=1;i<n+1;i++){
+            curr[0] = i;
             for( j=1;j<m+1;j++){
-                if(w1[i-1]==w2[j-1])dp[i][j]=dp[i-1][j-1];
+                if(w1[i-1]==w2[j-1])curr[j]=prev[j-1];
                 else{
-                    int in=dp[i][j-1];
-                    int del=dp[i-1][j];
-                    int rep=dp[i-1][j-1];
-                    dp[i][j]=1+min({in,del,rep});
+                    int in=curr[j-1];
+                    int del=prev[j];
+                    int rep=prev[j-1];
+                    curr[j]=1+min({in,del,rep});
                 }
+
             }
+            prev=curr;
         }
-        return dp[n][m];
+        return prev[m];
         
     }
 };/*class Solution {
