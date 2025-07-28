@@ -1,30 +1,47 @@
+#define ALL(x) begin(x), end(x)
 class Solution {
 public:
     long long maxSubarrays(int n, vector<vector<int>>& conflictingPairs) {
-        vector<int> bMin1(n + 1, INT_MAX), bMin2(n + 1, INT_MAX);
-        for (const auto& pair : conflictingPairs) {
-            int a = min(pair[0], pair[1]), b = max(pair[0], pair[1]);
-            if (bMin1[a] > b) {
-                bMin2[a] = bMin1[a];
-                bMin1[a] = b;
-            } else if (bMin2[a] > b) {
-                bMin2[a] = b;
-            }
+        long long valid = 0;
+
+        
+        vector<vector<int>> conflictingPoints(n+1);
+        //conflictingPoints[i] = {points which confliuct with i}
+
+        for(auto &p : conflictingPairs) { //O(C)
+            //(a, b)
+            int a = min(p[0], p[1]);
+            int b = max(p[0], p[1]);
+
+            conflictingPoints[b].push_back(a); //{1,2,a,,,,b}
         }
-        long long res = 0;
-        int ib1 = n, b2 = INT_MAX;
-        vector<long long> delCount(n + 1, 0);
-        for (int i = n; i >= 1; i--) {
-            if (bMin1[ib1] > bMin1[i]) {
-                b2 = min(b2, bMin1[ib1]);
-                ib1 = i;
-            } else {
-                b2 = min(b2, bMin1[i]);
+
+        int maxConflict = 0;
+        int secondMaxConflict = 0;
+
+        vector<long long> extra(n+1, 0);
+        //extra[i] = number of extra subarrays by removing the conflicting point i
+
+        //O(n+P)
+        //O(n)
+        for(int end = 1; end <= n; end++) { //visiting each point and treating them as subarray ending at this point
+            //total subarrays ending at this point 'end'
+            
+            //O(P)
+            for(int &u : conflictingPoints[end]) { //check all conflicting points of end
+                if(u >= maxConflict) {
+                    secondMaxConflict = maxConflict;
+                    maxConflict = u;
+                } else if(u > secondMaxConflict) {
+                    secondMaxConflict = u;
+                }
             }
-            res += min(bMin1[ib1], n + 1) - i;
-            delCount[ib1] +=
-                min(min(b2, bMin2[ib1]), n + 1) - min(bMin1[ib1], n + 1);
+
+            valid += end - maxConflict;
+            extra[maxConflict] += maxConflict - secondMaxConflict;
         }
-        return res + *max_element(delCount.begin(), delCount.end());
+
+
+        return valid + *max_element(ALL(extra)); //you could also write valid + *max_element(begin(extra), end(extra))
     }
 };
