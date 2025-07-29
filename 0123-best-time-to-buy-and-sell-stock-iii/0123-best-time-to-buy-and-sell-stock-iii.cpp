@@ -1,6 +1,33 @@
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
+        vector<vector<int>>next(2, vector<int>(3, 0));
+        vector<vector<int>>curr(2, vector<int>(3, 0));
+        
+        for (int i = prices.size() - 1; i >=0 ; i--) {
+            for (int hold = 0; hold <= 1; hold++) {
+                for (int j = 1; j <= 2; j++) {
+                    if (hold == 1) {
+                        int sell = next[0][j - 1] + prices[i];
+                        int skip = next[1][j];
+                        
+                        curr[hold][j] = max(sell, skip);
+                    } else {
+                        int buy = next[1][j] - prices[i];
+                        int skip = next[0][j];
+                        
+                        curr[hold][j] = max(buy, skip);
+                    }
+                }
+            }
+            next=curr;
+        }
+        return curr[0][2];
+    }
+};
+/*class Solution {
+public:
+    int maxProfit(vector<int>& prices) {
         vector<vector<vector<int>>> dp(
             prices.size() + 1, vector<vector<int>>(2, vector<int>(3, 0)));
         
@@ -23,7 +50,7 @@ public:
         }
         return dp[0][0][2];
     }
-}; /*class Solution {
+}; *//*class Solution {
  public:
      int dp[100001][2][3];
   int solve(vector<int>&prices,int currIndex, int hold,int leftT){
