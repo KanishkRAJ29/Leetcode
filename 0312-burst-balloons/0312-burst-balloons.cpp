@@ -26,7 +26,7 @@ public:
         return maxi;
     }
 
-  int maxCoins(vector<int>& nums) {
+    int maxCoins(vector<int>& nums) {
         // Step 1: Add virtual balloons with value 1 at both ends
         nums.insert(nums.begin(), 1);
         nums.push_back(1);
@@ -34,29 +34,30 @@ public:
         int n = nums.size();
 
         // Step 2: Create a 2D DP table initialized to 0
-        // dp[left][right] = max coins from bursting balloons between left and right
+        // dp[left][right] = max coins from bursting balloons between left and
+        // right
         vector<vector<int>> dp(n, vector<int>(n, 0));
 
-        // Step 3: Iterate on window length (minimum length is 3 because we need at least one balloon between left and right)
-        for (int length = 2; length < n; ++length) {
-            for (int left = 0; left + length < n; ++left) {
-                int right = left + length;
 
-                // Step 4: Try each balloon in (left+1, right-1) as the last to burst
+        for (int left = n-1; left >=0; left--) {
+            for (int right = left+1; right < n; ++right) {
+                
+
+            
                 for (int i = left + 1; i < right; ++i) {
-                    // Coins from bursting balloon i last in the interval
+                   
                     int coins = nums[left] * nums[i] * nums[right];
 
-                    // Total coins = left interval + right interval + current burst
+                  
                     coins += dp[left][i] + dp[i][right];
 
-                    // Take the maximum over all choices of i
+                   
                     dp[left][right] = max(dp[left][right], coins);
                 }
             }
         }
 
-        // Step 5: Return result for the full range (excluding added 1s at the ends)
+       
         return dp[0][n - 1];
     } /* int maxCoins(vector<int>& nums) {
          // Add virtual balloons with value 1 at both ends
