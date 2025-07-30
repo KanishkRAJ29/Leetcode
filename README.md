@@ -433,6 +433,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/KanishkRAJ29/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/KanishkRAJ29/Leetcode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1170-shortest-common-supersequence](https://github.com/KanishkRAJ29/Leetcode/tree/master/1170-shortest-common-supersequence) |
+| [1197-parsing-a-boolean-expression](https://github.com/KanishkRAJ29/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1250-longest-common-subsequence](https://github.com/KanishkRAJ29/Leetcode/tree/master/1250-longest-common-subsequence) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/KanishkRAJ29/Leetcode/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/KanishkRAJ29/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
@@ -467,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0044-wildcard-matching](https://github.com/KanishkRAJ29/Leetcode/tree/master/0044-wildcard-matching) |
 | [0060-permutation-sequence](https://github.com/KanishkRAJ29/Leetcode/tree/master/0060-permutation-sequence) |
 | [0206-reverse-linked-list](https://github.com/KanishkRAJ29/Leetcode/tree/master/0206-reverse-linked-list) |
+| [1197-parsing-a-boolean-expression](https://github.com/KanishkRAJ29/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [2050-count-good-numbers](https://github.com/KanishkRAJ29/Leetcode/tree/master/2050-count-good-numbers) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
@@ -551,6 +553,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/KanishkRAJ29/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0496-next-greater-element-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/KanishkRAJ29/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
+| [1197-parsing-a-boolean-expression](https://github.com/KanishkRAJ29/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/KanishkRAJ29/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/KanishkRAJ29/Leetcode/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/KanishkRAJ29/Leetcode/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
