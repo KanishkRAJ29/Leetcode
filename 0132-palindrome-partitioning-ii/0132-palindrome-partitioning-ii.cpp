@@ -8,9 +8,9 @@ public:
         }
         return true;
     }
-        int solve(int left, int right, string &s, vector<vector<int>>&dp) {
+        int solve(int left, int right, string &s, vector<int>&dp) {
         if (left >= right || isPal(left, right, s)) return 0;
-        if (dp[left][right] != -1) return dp[left][right];
+        if (dp[left] != -1) return dp[left];
 
         int minCuts = INT_MAX;
         for (int i = left; i < right; i++) {
@@ -18,12 +18,12 @@ public:
                 minCuts = min(minCuts, solve(i + 1, right, s, dp)+1);
             }
         }
-        return dp[left][right] = minCuts;
+        return dp[left] = minCuts;
     }
     int minCut(string s) {
         
         int n = s.length();
-        vector<vector<int>>dp(n,vector<int>(n, -1));
+        vector<int>dp(n, -1);
         return solve(0, n - 1, s, dp);
     }
 };/*class Solution {
