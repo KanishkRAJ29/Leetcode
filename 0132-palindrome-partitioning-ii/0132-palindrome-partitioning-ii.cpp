@@ -1,6 +1,6 @@
-/*class Solution {
+class Solution {
 public:
-    bool isPal(int i,int j,string s){
+    bool isPal(int i,int j,string &s){
         while(i<j){
             if(s[i]!=s[j])return false;
             i++;
@@ -15,7 +15,7 @@ public:
         int minCuts = INT_MAX;
         for (int i = left; i < right; i++) {
             if (isPal(left, i, s)) {
-                minCuts = min(minCuts, 1 + solve(i + 1, right, s, dp));
+                minCuts = min(minCuts, solve(i + 1, right, s, dp)+1);
             }
         }
         return dp[left][right] = minCuts;
@@ -26,7 +26,7 @@ public:
         vector<vector<int>>dp(n,vector<int>(n, -1));
         return solve(0, n - 1, s, dp);
     }
-};*/class Solution {
+};/*class Solution {
 public:
     
     bool isPalindrome(string &s, int start, int end) {
@@ -60,7 +60,7 @@ public:
             if(isPalindrome(s,start,ctr)==false)
                 continue;
             
-            int tempAns = solve(s,start,ctr,dp) + solve(s,ctr+1,end,dp) + 1;
+            int tempAns =  solve(s,ctr+1,end,dp) + 1;
             
             if(tempAns < ans) ans = tempAns;
         }
@@ -73,4 +73,4 @@ public:
         vector<vector<int>> dp(s.size()+1, vector<int>(s.size()+1,-1));
         return solve(s,0,s.length()-1,dp);
     }
-};
+};*/
