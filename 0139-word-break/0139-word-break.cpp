@@ -18,7 +18,26 @@ public:
     }
     bool wordBreak(string s, vector<string>& wordDict) {
         unordered_set<string>st(wordDict.begin(),wordDict.end());
-        vector<int>dp(s.size(),-1);
-        return solve(st,s,0,dp);
+        //vector<int>dp(s.size(),-1);
+        //return solve(st,s,0,dp);
+        
+        vector<bool>dp(s.size()+1,false);
+        dp[s.size()] = true;
+
+        for(int left=s.size()-1;left>=0;left--){
+            bool ans=false;
+        for(int k=left;k<s.size();k++){
+            string leftstring=s.substr(left,k-left+1);
+            if(st.find(leftstring)!=st.end()){
+                bool curr=dp[k+1];
+                ans=ans||curr;
+
+            }
+        }
+       
+        dp[left]= ans;
+        }
+    return dp[0];
+
     }
 };
