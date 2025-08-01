@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1227-number-of-equivalent-domino-pairs](https://github.com/KanishkRAJ29/Leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1293-three-consecutive-odds](https://github.com/KanishkRAJ29/Leetcode/tree/master/1293-three-consecutive-odds) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/KanishkRAJ29/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/KanishkRAJ29/Leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/KanishkRAJ29/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/KanishkRAJ29/Leetcode/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/KanishkRAJ29/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
@@ -158,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1121-partition-array-for-maximum-sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/1121-partition-array-for-maximum-sum) |
 | [1170-shortest-common-supersequence](https://github.com/KanishkRAJ29/Leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/KanishkRAJ29/Leetcode/tree/master/1250-longest-common-subsequence) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/KanishkRAJ29/Leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/KanishkRAJ29/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1527-number-of-ways-to-paint-n-3-grid](https://github.com/KanishkRAJ29/Leetcode/tree/master/1527-number-of-ways-to-paint-n-3-grid) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/KanishkRAJ29/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -704,6 +706,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/KanishkRAJ29/Leetcode/tree/master/0200-number-of-islands) |
 | [0945-snakes-and-ladders](https://github.com/KanishkRAJ29/Leetcode/tree/master/0945-snakes-and-ladders) |
 | [0967-minimum-falling-path-sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/0967-minimum-falling-path-sum) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/KanishkRAJ29/Leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Shortest Path
