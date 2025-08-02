@@ -1,50 +1,49 @@
 class Solution {
 public:
-    // (start, end, profit) tuples
-    vector<tuple<int,int,int>> sep;
-
-    // i = current job index
-    // last = index of last-taken job (or -1 if none)
-    // dp sized [n][n+1], memoizing on (i, last+1)
-    int solve(int i, int last, vector<vector<int>>& dp) {
-        int n = sep.size();
-        if (i >= n) return 0;
-        int lit = last + 1;                // shift so last==-1 → lit==0
-        if (dp[i][lit] != -1) 
-            return dp[i][lit];
-
-        // Option 1: skip job i
-        int ans = solve(i+1, last, dp);
-
-        // Option 2: take job i, if it doesn't overlap
-        int si = get<0>(sep[i]);
-        int ei = get<1>(sep[i]);
-        int pi = get<2>(sep[i]);
-        if (last < 0 || si >= get<1>(sep[last])) {
-            ans = max(ans, pi + solve(i+1, i, dp));
-        }
-
-        return dp[i][lit] = ans;
+    int getNextIndex(vector<vector<int>>& arr,int l,int target){
+        int n=arr.size();
+       int r=n-1;
+       int result=n+1;
+       while(l<=r) {
+           int mid=l+(r-l)/2;
+           if(arr[mid][0]>=target){
+            result=mid; 
+            r=mid-1;  
+           }else{
+               l=mid+1;
+           }
+       }
+       return result;
     }
-
-    int jobScheduling(vector<int>& startTime, 
-                      vector<int>& endTime, 
-                      vector<int>& profit) {
-        int n = startTime.size();
-        sep.reserve(n);
-        for (int i = 0; i < n; i++) {
-            sep.emplace_back(startTime[i], 
-                             endTime[i], 
-                             profit[i]);
+    int solve(vector<vector<int>>& arr,vector<int>&memo,int i){
+        int n=arr.size();
+        if(i>=n){
+            return 0;
         }
-        // sort by start time
-        sort(sep.begin(), sep.end(),
-             [&](auto &a, auto &b){
-                 return get<0>(a) < get<0>(b);
-             });
+          if (memo[i] != -1) {
+            return memo[i];
+        }
 
-        // dp dimensions: n rows, (n+1) columns for last+1 = 0..n
-        vector<vector<int>> dp(n, vector<int>(n+1, -1));
-        return solve(0, -1, dp);
+        int next = getNextIndex(arr, i + 1, arr[i][1]);
+        int taken = arr[i][2] + solve(arr, memo, next);
+        int notTaken = solve(arr, memo, i + 1);
+
+        memo[i] = max(taken, notTaken);
+        return memo[i];
+    }
+    int jobScheduling(vector<int>& startTime, vector<int>& endTime, vector<int>& profit) {
+      int n=startTime.size();
+      vector<vector<int>> arr(n,vector<int>(3,0));
+      for(int i=0;i<n;i++){
+        arr[i][0]=startTime[i];
+        arr[i][1]=endTime[i];
+        arr[i][2]=profit[i];  
+      }  
+      auto comp=[&](auto& vec1,auto& vec2){
+          return vec1[0]<vec2[0];
+      };
+      sort(arr.begin(),arr.end(),comp);
+      vector<int>memo(n+1,-1);
+      return solve(arr,memo,0);
     }
 };
