@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0594-longest-harmonious-subsequence](https://github.com/KanishkRAJ29/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/KanishkRAJ29/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
+| [0735-asteroid-collision](https://github.com/KanishkRAJ29/Leetcode/tree/master/0735-asteroid-collision) |
 | [0797-rabbits-in-forest](https://github.com/KanishkRAJ29/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/KanishkRAJ29/Leetcode/tree/master/0934-bitwise-ors-of-subarrays) |
 | [0940-fruit-into-baskets](https://github.com/KanishkRAJ29/Leetcode/tree/master/0940-fruit-into-baskets) |
@@ -589,6 +590,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/KanishkRAJ29/Leetcode/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/KanishkRAJ29/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0496-next-greater-element-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/0496-next-greater-element-i) |
+| [0735-asteroid-collision](https://github.com/KanishkRAJ29/Leetcode/tree/master/0735-asteroid-collision) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/KanishkRAJ29/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1197-parsing-a-boolean-expression](https://github.com/KanishkRAJ29/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/KanishkRAJ29/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -717,6 +719,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0735-asteroid-collision](https://github.com/KanishkRAJ29/Leetcode/tree/master/0735-asteroid-collision) |
 | [2048-build-array-from-permutation](https://github.com/KanishkRAJ29/Leetcode/tree/master/2048-build-array-from-permutation) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/KanishkRAJ29/Leetcode/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2479-meeting-rooms-iii](https://github.com/KanishkRAJ29/Leetcode/tree/master/2479-meeting-rooms-iii) |
