@@ -10,9 +10,9 @@ public:
             basket[fruits[j]]++;
             j++;
             int curr=0;
-            for(auto &[key,val]:basket){
+            /*for(auto &[key,val]:basket){
                 curr+=val;
-            }
+            }**/ curr=j-i;
             maxi=max(curr,maxi);
         }else{
             while(i<=j&&basket.size()==2){
