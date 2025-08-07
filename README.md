@@ -204,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0060-permutation-sequence](https://github.com/KanishkRAJ29/Leetcode/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/KanishkRAJ29/Leetcode/tree/master/0062-unique-paths) |
 | [0189-rotate-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/0189-rotate-array) |
+| [0258-add-digits](https://github.com/KanishkRAJ29/Leetcode/tree/master/0258-add-digits) |
 | [0368-largest-divisible-subset](https://github.com/KanishkRAJ29/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0797-rabbits-in-forest](https://github.com/KanishkRAJ29/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0923-super-egg-drop](https://github.com/KanishkRAJ29/Leetcode/tree/master/0923-super-egg-drop) |
@@ -691,6 +692,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Number Theory
 |  |
 | ------- |
+| [0258-add-digits](https://github.com/KanishkRAJ29/Leetcode/tree/master/0258-add-digits) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/KanishkRAJ29/Leetcode/tree/master/2415-count-the-number-of-ideal-arrays) |
 ## String Matching
 |  |
@@ -738,6 +740,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0258-add-digits](https://github.com/KanishkRAJ29/Leetcode/tree/master/0258-add-digits) |
 | [0735-asteroid-collision](https://github.com/KanishkRAJ29/Leetcode/tree/master/0735-asteroid-collision) |
 | [2048-build-array-from-permutation](https://github.com/KanishkRAJ29/Leetcode/tree/master/2048-build-array-from-permutation) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/KanishkRAJ29/Leetcode/tree/master/2260-divide-a-string-into-groups-of-size-k) |
