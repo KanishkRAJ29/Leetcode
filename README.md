@@ -210,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0368-largest-divisible-subset](https://github.com/KanishkRAJ29/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0797-rabbits-in-forest](https://github.com/KanishkRAJ29/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0923-super-egg-drop](https://github.com/KanishkRAJ29/Leetcode/tree/master/0923-super-egg-drop) |
+| [1307-ugly-number-iii](https://github.com/KanishkRAJ29/Leetcode/tree/master/1307-ugly-number-iii) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/KanishkRAJ29/Leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/KanishkRAJ29/Leetcode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/KanishkRAJ29/Leetcode/tree/master/1500-count-largest-group) |
@@ -262,6 +263,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/KanishkRAJ29/Leetcode/tree/master/0062-unique-paths) |
+| [1307-ugly-number-iii](https://github.com/KanishkRAJ29/Leetcode/tree/master/1307-ugly-number-iii) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/KanishkRAJ29/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/KanishkRAJ29/Leetcode/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [3201-distribute-candies-among-children-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/3201-distribute-candies-among-children-ii) |
@@ -533,6 +535,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0923-super-egg-drop](https://github.com/KanishkRAJ29/Leetcode/tree/master/0923-super-egg-drop) |
+| [1307-ugly-number-iii](https://github.com/KanishkRAJ29/Leetcode/tree/master/1307-ugly-number-iii) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/KanishkRAJ29/Leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/KanishkRAJ29/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1645-find-a-value-of-a-mysterious-function-closest-to-target](https://github.com/KanishkRAJ29/Leetcode/tree/master/1645-find-a-value-of-a-mysterious-function-closest-to-target) |
@@ -707,6 +710,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0258-add-digits](https://github.com/KanishkRAJ29/Leetcode/tree/master/0258-add-digits) |
+| [1307-ugly-number-iii](https://github.com/KanishkRAJ29/Leetcode/tree/master/1307-ugly-number-iii) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/KanishkRAJ29/Leetcode/tree/master/2415-count-the-number-of-ideal-arrays) |
 ## String Matching
 |  |
