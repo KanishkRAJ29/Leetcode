@@ -22,18 +22,23 @@ public:
         if (maxI == 0) return 0;
 
         // dp[i][s] = ways to make sum 's' using bases i..maxI
-        vector<vector<int>> dp(maxI + 2, vector<int>(n + 1, 0));
-        dp[maxI + 1][n] = 1; 
+       // vector<vector<int>> dp(maxI + 2, vector<int>(n + 1, 0));
+       vector<int>prev(n+1,0);
+       vector<int>curr(n+1,0);
+       // dp[maxI + 1][n] = 1; 
+        prev[n] = 1; 
+
         int N=n;
         for(int i=maxI;i>0;i--){
             long long p=power_with_limit(i,x,n);
             for(int j=n;j>=0;j--){
                 int take=0;
-                if(j+p<=N)take=dp[i+1][j+p];
-                dp[i][j]=(take+dp[i+1][j])%mod;
+                if(j+p<=N)take=prev[j+p];//dp[i+1][j+p];
+            /*dp[i][j]    */curr[j]=(take+prev[j])%mod;//(take+dp[i+1][j])%mod;
             }
+            prev=curr;
         }
-        return dp[1][0];
+        return prev[0];//dp[1][0];
 
     }
 };/*
