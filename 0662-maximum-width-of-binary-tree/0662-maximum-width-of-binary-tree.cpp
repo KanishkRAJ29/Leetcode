@@ -29,10 +29,10 @@ public:
                 q.pop();
                 auto idx=element.second;
 
-                 if (element.first->left)  q.push({element.first->left, (long long) 2 * idx});
+                 if (element.first->left)  q.push({element.first->left, (long long) 2 * idx+1});
                 // if it has the right node, push it for the next level
                 // with idx = 2 * cur_idx + 1
-                if (element.first->right) q.push({element.first->right, (long long) 2 * idx + 1});
+                if (element.first->right) q.push({element.first->right, (long long) 2 * idx + 2});
                     
 
             }
