@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/KanishkRAJ29/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/KanishkRAJ29/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1628-count-submatrices-with-all-ones](https://github.com/KanishkRAJ29/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
 | [1645-find-a-value-of-a-mysterious-function-closest-to-target](https://github.com/KanishkRAJ29/Leetcode/tree/master/1645-find-a-value-of-a-mysterious-function-closest-to-target) |
 | [1656-count-good-triplets](https://github.com/KanishkRAJ29/Leetcode/tree/master/1656-count-good-triplets) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/KanishkRAJ29/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -186,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-count-square-submatrices-with-all-ones](https://github.com/KanishkRAJ29/Leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/KanishkRAJ29/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1527-number-of-ways-to-paint-n-3-grid](https://github.com/KanishkRAJ29/Leetcode/tree/master/1527-number-of-ways-to-paint-n-3-grid) |
+| [1628-count-submatrices-with-all-ones](https://github.com/KanishkRAJ29/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/KanishkRAJ29/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1986-largest-color-value-in-a-directed-graph](https://github.com/KanishkRAJ29/Leetcode/tree/master/1986-largest-color-value-in-a-directed-graph) |
@@ -681,6 +683,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/KanishkRAJ29/Leetcode/tree/master/0735-asteroid-collision) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/KanishkRAJ29/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1197-parsing-a-boolean-expression](https://github.com/KanishkRAJ29/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
+| [1628-count-submatrices-with-all-ones](https://github.com/KanishkRAJ29/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/KanishkRAJ29/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/KanishkRAJ29/Leetcode/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/KanishkRAJ29/Leetcode/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
@@ -711,6 +714,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/KanishkRAJ29/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0316-remove-duplicate-letters](https://github.com/KanishkRAJ29/Leetcode/tree/master/0316-remove-duplicate-letters) |
 | [0496-next-greater-element-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/0496-next-greater-element-i) |
+| [1628-count-submatrices-with-all-ones](https://github.com/KanishkRAJ29/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/KanishkRAJ29/Leetcode/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 ## Greedy
 |  |
@@ -835,6 +839,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0945-snakes-and-ladders](https://github.com/KanishkRAJ29/Leetcode/tree/master/0945-snakes-and-ladders) |
 | [0967-minimum-falling-path-sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/KanishkRAJ29/Leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1628-count-submatrices-with-all-ones](https://github.com/KanishkRAJ29/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/KanishkRAJ29/Leetcode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
