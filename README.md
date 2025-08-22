@@ -124,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3263-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3263-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/KanishkRAJ29/Leetcode/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3321-type-of-triangle](https://github.com/KanishkRAJ29/Leetcode/tree/master/3321-type-of-triangle) |
+| [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/KanishkRAJ29/Leetcode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
@@ -840,6 +841,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0967-minimum-falling-path-sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/KanishkRAJ29/Leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1628-count-submatrices-with-all-ones](https://github.com/KanishkRAJ29/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
+| [3461-find-the-minimum-area-to-cover-all-ones-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3461-find-the-minimum-area-to-cover-all-ones-i) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/KanishkRAJ29/Leetcode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
