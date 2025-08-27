@@ -285,6 +285,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2498-smallest-subarrays-with-maximum-bitwise-or](https://github.com/KanishkRAJ29/Leetcode/tree/master/2498-smallest-subarrays-with-maximum-bitwise-or) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/KanishkRAJ29/Leetcode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2529-range-product-queries-of-powers](https://github.com/KanishkRAJ29/Leetcode/tree/master/2529-range-product-queries-of-powers) |
+| [2632-apply-bitwise-operations-to-make-strings-equal](https://github.com/KanishkRAJ29/Leetcode/tree/master/2632-apply-bitwise-operations-to-make-strings-equal) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/KanishkRAJ29/Leetcode/tree/master/3307-find-the-maximum-sum-of-node-values) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
@@ -553,6 +554,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2346-largest-3-same-digit-number-in-string](https://github.com/KanishkRAJ29/Leetcode/tree/master/2346-largest-3-same-digit-number-in-string) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/KanishkRAJ29/Leetcode/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/KanishkRAJ29/Leetcode/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
+| [2632-apply-bitwise-operations-to-make-strings-equal](https://github.com/KanishkRAJ29/Leetcode/tree/master/2632-apply-bitwise-operations-to-make-strings-equal) |
 | [3142-longest-unequal-adjacent-groups-subsequence-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/3142-longest-unequal-adjacent-groups-subsequence-ii) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3194-find-words-containing-character](https://github.com/KanishkRAJ29/Leetcode/tree/master/3194-find-words-containing-character) |
