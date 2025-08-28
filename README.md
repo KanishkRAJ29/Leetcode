@@ -202,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2028-the-earliest-and-latest-rounds-where-players-compete](https://github.com/KanishkRAJ29/Leetcode/tree/master/2028-the-earliest-and-latest-rounds-where-players-compete) |
 | [2061-painting-a-grid-with-three-different-colors](https://github.com/KanishkRAJ29/Leetcode/tree/master/2061-painting-a-grid-with-three-different-colors) |
 | [2108-minimize-the-difference-between-target-and-chosen-elements](https://github.com/KanishkRAJ29/Leetcode/tree/master/2108-minimize-the-difference-between-target-and-chosen-elements) |
+| [2191-minimum-number-of-food-buckets-to-feed-the-hamsters](https://github.com/KanishkRAJ29/Leetcode/tree/master/2191-minimum-number-of-food-buckets-to-feed-the-hamsters) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/KanishkRAJ29/Leetcode/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/KanishkRAJ29/Leetcode/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/KanishkRAJ29/Leetcode/tree/master/2415-count-the-number-of-ideal-arrays) |
@@ -555,6 +556,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1818-maximum-score-from-removing-substrings](https://github.com/KanishkRAJ29/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/KanishkRAJ29/Leetcode/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/KanishkRAJ29/Leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
+| [2191-minimum-number-of-food-buckets-to-feed-the-hamsters](https://github.com/KanishkRAJ29/Leetcode/tree/master/2191-minimum-number-of-food-buckets-to-feed-the-hamsters) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/KanishkRAJ29/Leetcode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/KanishkRAJ29/Leetcode/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/KanishkRAJ29/Leetcode/tree/master/2346-largest-3-same-digit-number-in-string) |
@@ -755,6 +757,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1901-equal-sum-arrays-with-minimum-number-of-operations](https://github.com/KanishkRAJ29/Leetcode/tree/master/1901-equal-sum-arrays-with-minimum-number-of-operations) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/KanishkRAJ29/Leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/KanishkRAJ29/Leetcode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
+| [2191-minimum-number-of-food-buckets-to-feed-the-hamsters](https://github.com/KanishkRAJ29/Leetcode/tree/master/2191-minimum-number-of-food-buckets-to-feed-the-hamsters) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/KanishkRAJ29/Leetcode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/KanishkRAJ29/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2395-longest-binary-subsequence-less-than-or-equal-to-k](https://github.com/KanishkRAJ29/Leetcode/tree/master/2395-longest-binary-subsequence-less-than-or-equal-to-k) |
