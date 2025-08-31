@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0031-next-permutation](https://github.com/KanishkRAJ29/Leetcode/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/KanishkRAJ29/Leetcode/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/KanishkRAJ29/Leetcode/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/KanishkRAJ29/Leetcode/tree/master/0041-first-missing-positive) |
@@ -269,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/KanishkRAJ29/Leetcode/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/KanishkRAJ29/Leetcode/tree/master/0046-permutations) |
@@ -480,6 +482,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/KanishkRAJ29/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0012-integer-to-roman](https://github.com/KanishkRAJ29/Leetcode/tree/master/0012-integer-to-roman) |
 | [0036-valid-sudoku](https://github.com/KanishkRAJ29/Leetcode/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/KanishkRAJ29/Leetcode/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/KanishkRAJ29/Leetcode/tree/master/0041-first-missing-positive) |
 | [0073-set-matrix-zeroes](https://github.com/KanishkRAJ29/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/KanishkRAJ29/Leetcode/tree/master/0128-longest-consecutive-sequence) |
@@ -864,6 +867,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/KanishkRAJ29/Leetcode/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/KanishkRAJ29/Leetcode/tree/master/0037-sudoku-solver) |
 | [0064-minimum-path-sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/KanishkRAJ29/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0085-maximal-rectangle](https://github.com/KanishkRAJ29/Leetcode/tree/master/0085-maximal-rectangle) |
