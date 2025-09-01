@@ -17,12 +17,12 @@ public:
 
         dp.resize(m + 2, vector<int>(m + 2, 0));
 
-        for (int i = m; i >= 1; i--) {
-            for (int j = i; j <= m; j++) {
+        for (int i = m+1; i >= 0; i--) {
+            for (int j = i+2; j <= m+1; j++) {
                 int ans = INT_MAX;
 
-                for (int mid = i; mid <= j; mid++) {
-                    int currentCost = dp[i][mid - 1] + dp[mid + 1][j] + newCuts[j + 1] - newCuts[i - 1];
+                for (int mid = i+1; mid <j; mid++) {
+                    int currentCost = dp[i][mid] + dp[mid][j] + newCuts[j] - newCuts[i];
                     ans = min(ans, currentCost);
                 }
 
@@ -30,11 +30,11 @@ public:
             }
         }
 
-        return dp[1][m];
+        return dp[0][m+1];
     }
 };
-
-/*class Solution {
+/*
+class Solution {
 public:
     vector<vector<int>> memo;
     vector<int> newCuts;
