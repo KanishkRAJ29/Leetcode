@@ -1,6 +1,6 @@
 class Solution {
 private:
-    int BASE = 1000000;
+    int BASE = 100000;
 public:
     int repeatedStringMatch(string A, string B) {
         if(A == B) return 1;
@@ -24,14 +24,14 @@ public:
         }
         int targetCode = 0;
         for(int i = 0;i<m;i++){
-            targetCode = (targetCode*26+target[i])%BASE;
+            targetCode = (targetCode*26+target[i]-'a')%BASE;
         }
         int hashCode = 0;
         for(int i = 0;i<source.size();i++){
-            hashCode = (hashCode*26 + source[i])%BASE;
+            hashCode = (hashCode*26 + source[i]-'a')%BASE;
             if(i<m-1) continue;
             if(i>=m){
-                hashCode = (hashCode-source[i-m]*power)%BASE;
+                hashCode = (hashCode-(source[i-m]-'a')*power)%BASE;
             }
             if(hashCode<0)
                 hashCode+=BASE;
