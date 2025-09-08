@@ -1,22 +1,36 @@
-class Solution
-{
-    public:
-    
-    std::vector<int> getNoZeroIntegers(const int n)
+class Solution {
+public:
+
+    bool check(int n)
     {
-        for(int a{1}; a<n; ++a)
+        //if there is atleast one digit 0 so return false
+       // cout<<"n "<<n<<endl;
+        while(n!=0)
         {
-            int b{n-a};
-            const auto no_zeros=[&](int num)
-            {
-                for(; num>0; num/=10)
-                    if(num%10==0)
-                        return false;
-                return true;
-            };
-            if(no_zeros(b) && no_zeros(a))
-                return std::vector{a,n-a};
+            
+            int digit=n%10;
+          //  cout<<"digit "<<digit<<endl;
+            if(digit==0)return false;
+            n/=10;
         }
-        return std::vector{-1, -1};
+        return true;
+    }
+
+
+    vector<int> getNoZeroIntegers(int n) {
+        //we just need to ruturn 2 numbers not having 0 and their sum =n 
+        
+      int start=1;int end=n-1;
+      while(start<=end)
+      {
+        //so we will try this 2 possible numbers 
+        //we ensure that sum of both is always n so the remaining is the second condition 
+        if(check(start)==true&&check(end)==true)
+        {
+            return {start,end};
+        }
+        start++;end--;
+      }
+      return {start,end};
     }
 };
