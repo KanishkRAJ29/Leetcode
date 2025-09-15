@@ -528,6 +528,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1006-vowel-spellchecker](https://github.com/KanishkRAJ29/Leetcode/tree/master/1006-vowel-spellchecker) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/KanishkRAJ29/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/KanishkRAJ29/Leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/KanishkRAJ29/Leetcode/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1500-count-largest-group](https://github.com/KanishkRAJ29/Leetcode/tree/master/1500-count-largest-group) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/KanishkRAJ29/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
@@ -589,6 +590,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1170-shortest-common-supersequence](https://github.com/KanishkRAJ29/Leetcode/tree/master/1170-shortest-common-supersequence) |
 | [1197-parsing-a-boolean-expression](https://github.com/KanishkRAJ29/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1250-longest-common-subsequence](https://github.com/KanishkRAJ29/Leetcode/tree/master/1250-longest-common-subsequence) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/KanishkRAJ29/Leetcode/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/KanishkRAJ29/Leetcode/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/KanishkRAJ29/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1644-maximum-number-of-non-overlapping-substrings](https://github.com/KanishkRAJ29/Leetcode/tree/master/1644-maximum-number-of-non-overlapping-substrings) |
