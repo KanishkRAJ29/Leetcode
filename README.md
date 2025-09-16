@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/KanishkRAJ29/Leetcode/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2280-count-good-triplets-in-an-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/2280-count-good-triplets-in-an-array) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2316-count-hills-and-valleys-in-an-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/2316-count-hills-and-valleys-in-an-array) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/KanishkRAJ29/Leetcode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
@@ -261,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2050-count-good-numbers](https://github.com/KanishkRAJ29/Leetcode/tree/master/2050-count-good-numbers) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/KanishkRAJ29/Leetcode/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2202-sum-of-k-mirror-numbers](https://github.com/KanishkRAJ29/Leetcode/tree/master/2202-sum-of-k-mirror-numbers) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/KanishkRAJ29/Leetcode/tree/master/2415-count-the-number-of-ideal-arrays) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/KanishkRAJ29/Leetcode/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [2998-count-symmetric-integers](https://github.com/KanishkRAJ29/Leetcode/tree/master/2998-count-symmetric-integers) |
@@ -752,6 +754,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1197-parsing-a-boolean-expression](https://github.com/KanishkRAJ29/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1628-count-submatrices-with-all-ones](https://github.com/KanishkRAJ29/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/KanishkRAJ29/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2520-using-a-robot-to-print-the-lexicographically-smallest-string](https://github.com/KanishkRAJ29/Leetcode/tree/master/2520-using-a-robot-to-print-the-lexicographically-smallest-string) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/KanishkRAJ29/Leetcode/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/KanishkRAJ29/Leetcode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
@@ -843,6 +846,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0258-add-digits](https://github.com/KanishkRAJ29/Leetcode/tree/master/0258-add-digits) |
 | [1307-ugly-number-iii](https://github.com/KanishkRAJ29/Leetcode/tree/master/1307-ugly-number-iii) |
+| [2307-replace-non-coprime-numbers-in-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/2307-replace-non-coprime-numbers-in-array) |
 | [2415-count-the-number-of-ideal-arrays](https://github.com/KanishkRAJ29/Leetcode/tree/master/2415-count-the-number-of-ideal-arrays) |
 ## String Matching
 |  |
