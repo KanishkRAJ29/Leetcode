@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0518-coin-change-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0594-longest-harmonious-subsequence](https://github.com/KanishkRAJ29/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
+| [0611-valid-triangle-number](https://github.com/KanishkRAJ29/Leetcode/tree/master/0611-valid-triangle-number) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/KanishkRAJ29/Leetcode/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0679-24-game](https://github.com/KanishkRAJ29/Leetcode/tree/master/0679-24-game) |
 | [0735-asteroid-collision](https://github.com/KanishkRAJ29/Leetcode/tree/master/0735-asteroid-collision) |
@@ -376,6 +377,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0165-compare-version-numbers](https://github.com/KanishkRAJ29/Leetcode/tree/master/0165-compare-version-numbers) |
 | [0189-rotate-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/0189-rotate-array) |
 | [0295-find-median-from-data-stream](https://github.com/KanishkRAJ29/Leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0611-valid-triangle-number](https://github.com/KanishkRAJ29/Leetcode/tree/master/0611-valid-triangle-number) |
 | [0868-push-dominoes](https://github.com/KanishkRAJ29/Leetcode/tree/master/0868-push-dominoes) |
 | [0908-middle-of-the-linked-list](https://github.com/KanishkRAJ29/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [1009-pancake-sorting](https://github.com/KanishkRAJ29/Leetcode/tree/master/1009-pancake-sorting) |
@@ -481,6 +483,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/KanishkRAJ29/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/KanishkRAJ29/Leetcode/tree/master/0368-largest-divisible-subset) |
 | [0594-longest-harmonious-subsequence](https://github.com/KanishkRAJ29/Leetcode/tree/master/0594-longest-harmonious-subsequence) |
+| [0611-valid-triangle-number](https://github.com/KanishkRAJ29/Leetcode/tree/master/0611-valid-triangle-number) |
 | [0900-reordered-power-of-2](https://github.com/KanishkRAJ29/Leetcode/tree/master/0900-reordered-power-of-2) |
 | [1009-pancake-sorting](https://github.com/KanishkRAJ29/Leetcode/tree/master/1009-pancake-sorting) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/KanishkRAJ29/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -660,6 +663,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0315-count-of-smaller-numbers-after-self](https://github.com/KanishkRAJ29/Leetcode/tree/master/0315-count-of-smaller-numbers-after-self) |
 | [0540-single-element-in-a-sorted-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/0540-single-element-in-a-sorted-array) |
+| [0611-valid-triangle-number](https://github.com/KanishkRAJ29/Leetcode/tree/master/0611-valid-triangle-number) |
 | [0923-super-egg-drop](https://github.com/KanishkRAJ29/Leetcode/tree/master/0923-super-egg-drop) |
 | [1307-ugly-number-iii](https://github.com/KanishkRAJ29/Leetcode/tree/master/1307-ugly-number-iii) |
 | [1352-maximum-profit-in-job-scheduling](https://github.com/KanishkRAJ29/Leetcode/tree/master/1352-maximum-profit-in-job-scheduling) |
@@ -821,6 +825,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0135-candy](https://github.com/KanishkRAJ29/Leetcode/tree/master/0135-candy) |
 | [0316-remove-duplicate-letters](https://github.com/KanishkRAJ29/Leetcode/tree/master/0316-remove-duplicate-letters) |
+| [0611-valid-triangle-number](https://github.com/KanishkRAJ29/Leetcode/tree/master/0611-valid-triangle-number) |
 | [0797-rabbits-in-forest](https://github.com/KanishkRAJ29/Leetcode/tree/master/0797-rabbits-in-forest) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/KanishkRAJ29/Leetcode/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1009-pancake-sorting](https://github.com/KanishkRAJ29/Leetcode/tree/master/1009-pancake-sorting) |
