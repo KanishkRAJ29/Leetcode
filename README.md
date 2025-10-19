@@ -372,6 +372,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0900-reordered-power-of-2](https://github.com/KanishkRAJ29/Leetcode/tree/master/0900-reordered-power-of-2) |
 | [1656-count-good-triplets](https://github.com/KanishkRAJ29/Leetcode/tree/master/1656-count-good-triplets) |
+| [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/KanishkRAJ29/Leetcode/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/KanishkRAJ29/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/KanishkRAJ29/Leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/KanishkRAJ29/Leetcode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
@@ -446,6 +447,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/KanishkRAJ29/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/KanishkRAJ29/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/KanishkRAJ29/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/KanishkRAJ29/Leetcode/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/KanishkRAJ29/Leetcode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/KanishkRAJ29/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/KanishkRAJ29/Leetcode/tree/master/2438-find-closest-node-to-given-two-nodes) |
@@ -473,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/KanishkRAJ29/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1424-maximum-candies-you-can-get-from-boxes](https://github.com/KanishkRAJ29/Leetcode/tree/master/1424-maximum-candies-you-can-get-from-boxes) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/KanishkRAJ29/Leetcode/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/KanishkRAJ29/Leetcode/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/KanishkRAJ29/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
@@ -658,6 +661,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/KanishkRAJ29/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/KanishkRAJ29/Leetcode/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1644-maximum-number-of-non-overlapping-substrings](https://github.com/KanishkRAJ29/Leetcode/tree/master/1644-maximum-number-of-non-overlapping-substrings) |
+| [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/KanishkRAJ29/Leetcode/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/KanishkRAJ29/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/KanishkRAJ29/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/KanishkRAJ29/Leetcode/tree/master/2079-delete-duplicate-folders-in-system) |
