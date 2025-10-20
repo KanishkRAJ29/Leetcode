@@ -102,6 +102,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2048-build-array-from-permutation](https://github.com/KanishkRAJ29/Leetcode/tree/master/2048-build-array-from-permutation) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/KanishkRAJ29/Leetcode/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2108-minimize-the-difference-between-target-and-chosen-elements](https://github.com/KanishkRAJ29/Leetcode/tree/master/2108-minimize-the-difference-between-target-and-chosen-elements) |
+| [2137-final-value-of-variable-after-performing-operations](https://github.com/KanishkRAJ29/Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/KanishkRAJ29/Leetcode/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/KanishkRAJ29/Leetcode/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/KanishkRAJ29/Leetcode/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
@@ -665,6 +666,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/KanishkRAJ29/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/KanishkRAJ29/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/KanishkRAJ29/Leetcode/tree/master/2079-delete-duplicate-folders-in-system) |
+| [2137-final-value-of-variable-after-performing-operations](https://github.com/KanishkRAJ29/Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/KanishkRAJ29/Leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
 | [2191-minimum-number-of-food-buckets-to-feed-the-hamsters](https://github.com/KanishkRAJ29/Leetcode/tree/master/2191-minimum-number-of-food-buckets-to-feed-the-hamsters) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/KanishkRAJ29/Leetcode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
@@ -1000,6 +1002,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/KanishkRAJ29/Leetcode/tree/master/0735-asteroid-collision) |
 | [1642-water-bottles](https://github.com/KanishkRAJ29/Leetcode/tree/master/1642-water-bottles) |
 | [2048-build-array-from-permutation](https://github.com/KanishkRAJ29/Leetcode/tree/master/2048-build-array-from-permutation) |
+| [2137-final-value-of-variable-after-performing-operations](https://github.com/KanishkRAJ29/Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2260-divide-a-string-into-groups-of-size-k](https://github.com/KanishkRAJ29/Leetcode/tree/master/2260-divide-a-string-into-groups-of-size-k) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/KanishkRAJ29/Leetcode/tree/master/2408-number-of-people-aware-of-a-secret) |
