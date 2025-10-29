@@ -1,13 +1,10 @@
 class Solution {
 public:
     int smallestNumber(int n) {
-        int x;
-        for(int i=0;i<64;i++){
-            x=pow(2,i);
-            if(x>n){
-                return x-1; 
-            }
+        int x = 1;
+        while (x < n) {
+            x = x * 2 + 1;
         }
-        return 0;
+        return x;
     }
 };
