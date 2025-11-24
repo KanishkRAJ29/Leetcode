@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1006-vowel-spellchecker](https://github.com/KanishkRAJ29/Leetcode/tree/master/1006-vowel-spellchecker) |
 | [1009-pancake-sorting](https://github.com/KanishkRAJ29/Leetcode/tree/master/1009-pancake-sorting) |
 | [1018-largest-perimeter-triangle](https://github.com/KanishkRAJ29/Leetcode/tree/master/1018-largest-perimeter-triangle) |
+| [1018-binary-prefix-divisible-by-5](https://github.com/KanishkRAJ29/Leetcode/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1032-satisfiability-of-equality-equations](https://github.com/KanishkRAJ29/Leetcode/tree/master/1032-satisfiability-of-equality-equations) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/KanishkRAJ29/Leetcode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/KanishkRAJ29/Leetcode/tree/master/1111-minimum-score-triangulation-of-polygon) |
@@ -368,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0231-power-of-two](https://github.com/KanishkRAJ29/Leetcode/tree/master/0231-power-of-two) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0934-bitwise-ors-of-subarrays](https://github.com/KanishkRAJ29/Leetcode/tree/master/0934-bitwise-ors-of-subarrays) |
+| [1018-binary-prefix-divisible-by-5](https://github.com/KanishkRAJ29/Leetcode/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1645-find-a-value-of-a-mysterious-function-closest-to-target](https://github.com/KanishkRAJ29/Leetcode/tree/master/1645-find-a-value-of-a-mysterious-function-closest-to-target) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/KanishkRAJ29/Leetcode/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/KanishkRAJ29/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
