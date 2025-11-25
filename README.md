@@ -300,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0867-new-21-game](https://github.com/KanishkRAJ29/Leetcode/tree/master/0867-new-21-game) |
 | [0900-reordered-power-of-2](https://github.com/KanishkRAJ29/Leetcode/tree/master/0900-reordered-power-of-2) |
 | [0923-super-egg-drop](https://github.com/KanishkRAJ29/Leetcode/tree/master/0923-super-egg-drop) |
+| [1015-smallest-integer-divisible-by-k](https://github.com/KanishkRAJ29/Leetcode/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1018-largest-perimeter-triangle](https://github.com/KanishkRAJ29/Leetcode/tree/master/1018-largest-perimeter-triangle) |
 | [1307-ugly-number-iii](https://github.com/KanishkRAJ29/Leetcode/tree/master/1307-ugly-number-iii) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/KanishkRAJ29/Leetcode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
@@ -622,6 +623,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0900-reordered-power-of-2](https://github.com/KanishkRAJ29/Leetcode/tree/master/0900-reordered-power-of-2) |
 | [0940-fruit-into-baskets](https://github.com/KanishkRAJ29/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [1006-vowel-spellchecker](https://github.com/KanishkRAJ29/Leetcode/tree/master/1006-vowel-spellchecker) |
+| [1015-smallest-integer-divisible-by-k](https://github.com/KanishkRAJ29/Leetcode/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/KanishkRAJ29/Leetcode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/KanishkRAJ29/Leetcode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/KanishkRAJ29/Leetcode/tree/master/1264-maximum-number-of-words-you-can-type) |
