@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2079-delete-duplicate-folders-in-system](https://github.com/KanishkRAJ29/Leetcode/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2108-minimize-the-difference-between-target-and-chosen-elements](https://github.com/KanishkRAJ29/Leetcode/tree/master/2108-minimize-the-difference-between-target-and-chosen-elements) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/KanishkRAJ29/Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2141-maximum-running-time-of-n-computers](https://github.com/KanishkRAJ29/Leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/KanishkRAJ29/Leetcode/tree/master/2144-maximum-difference-between-increasing-elements) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/KanishkRAJ29/Leetcode/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
 | [2169-simple-bank-system](https://github.com/KanishkRAJ29/Leetcode/tree/master/2169-simple-bank-system) |
@@ -575,6 +576,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/KanishkRAJ29/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/KanishkRAJ29/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
+| [2141-maximum-running-time-of-n-computers](https://github.com/KanishkRAJ29/Leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/KanishkRAJ29/Leetcode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2215-finding-3-digit-even-numbers](https://github.com/KanishkRAJ29/Leetcode/tree/master/2215-finding-3-digit-even-numbers) |
@@ -777,6 +779,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/KanishkRAJ29/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1645-find-a-value-of-a-mysterious-function-closest-to-target](https://github.com/KanishkRAJ29/Leetcode/tree/master/1645-find-a-value-of-a-mysterious-function-closest-to-target) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
+| [2141-maximum-running-time-of-n-computers](https://github.com/KanishkRAJ29/Leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2150-kth-smallest-product-of-two-sorted-arrays](https://github.com/KanishkRAJ29/Leetcode/tree/master/2150-kth-smallest-product-of-two-sorted-arrays) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/KanishkRAJ29/Leetcode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/KanishkRAJ29/Leetcode/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
@@ -966,6 +969,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1901-equal-sum-arrays-with-minimum-number-of-operations](https://github.com/KanishkRAJ29/Leetcode/tree/master/1901-equal-sum-arrays-with-minimum-number-of-operations) |
 | [1917-maximum-average-pass-ratio](https://github.com/KanishkRAJ29/Leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/KanishkRAJ29/Leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
+| [2141-maximum-running-time-of-n-computers](https://github.com/KanishkRAJ29/Leetcode/tree/master/2141-maximum-running-time-of-n-computers) |
 | [2180-maximum-number-of-tasks-you-can-assign](https://github.com/KanishkRAJ29/Leetcode/tree/master/2180-maximum-number-of-tasks-you-can-assign) |
 | [2191-minimum-number-of-food-buckets-to-feed-the-hamsters](https://github.com/KanishkRAJ29/Leetcode/tree/master/2191-minimum-number-of-food-buckets-to-feed-the-hamsters) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/KanishkRAJ29/Leetcode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
