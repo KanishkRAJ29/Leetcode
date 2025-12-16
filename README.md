@@ -175,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/KanishkRAJ29/Leetcode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3531-count-covered-buildings](https://github.com/KanishkRAJ29/Leetcode/tree/master/3531-count-covered-buildings) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/KanishkRAJ29/Leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/KanishkRAJ29/Leetcode/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/KanishkRAJ29/Leetcode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/KanishkRAJ29/Leetcode/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
@@ -285,6 +286,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3437-maximum-total-damage-with-spell-casting](https://github.com/KanishkRAJ29/Leetcode/tree/master/3437-maximum-total-damage-with-spell-casting) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/KanishkRAJ29/Leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3578-count-partitions-with-max-min-difference-at-most-k](https://github.com/KanishkRAJ29/Leetcode/tree/master/3578-count-partitions-with-max-min-difference-at-most-k) |
 | [3618-find-the-original-typed-string-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/3618-find-the-original-typed-string-ii) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -504,6 +506,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/KanishkRAJ29/Leetcode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph](https://github.com/KanishkRAJ29/Leetcode/tree/master/2403-count-unreachable-pairs-of-nodes-in-an-undirected-graph) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/KanishkRAJ29/Leetcode/tree/master/2438-find-closest-node-to-given-two-nodes) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/KanishkRAJ29/Leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 | [3863-power-grid-maintenance](https://github.com/KanishkRAJ29/Leetcode/tree/master/3863-power-grid-maintenance) |
@@ -1184,6 +1187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/KanishkRAJ29/Leetcode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [2400-minimum-score-after-removals-on-a-tree](https://github.com/KanishkRAJ29/Leetcode/tree/master/2400-minimum-score-after-removals-on-a-tree) |
 | [3307-find-the-maximum-sum-of-node-values](https://github.com/KanishkRAJ29/Leetcode/tree/master/3307-find-the-maximum-sum-of-node-values) |
+| [3562-maximum-profit-from-trading-stocks-with-discounts](https://github.com/KanishkRAJ29/Leetcode/tree/master/3562-maximum-profit-from-trading-stocks-with-discounts) |
 | [3633-maximize-the-number-of-target-nodes-after-connecting-trees-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3633-maximize-the-number-of-target-nodes-after-connecting-trees-i) |
 | [3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/3645-maximize-the-number-of-target-nodes-after-connecting-trees-ii) |
 ## Topological Sort
