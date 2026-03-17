@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1656-count-good-triplets](https://github.com/KanishkRAJ29/Leetcode/tree/master/1656-count-good-triplets) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/KanishkRAJ29/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1695-maximum-erasure-value](https://github.com/KanishkRAJ29/Leetcode/tree/master/1695-maximum-erasure-value) |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/KanishkRAJ29/Leetcode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1813-maximum-erasure-value](https://github.com/KanishkRAJ29/Leetcode/tree/master/1813-maximum-erasure-value) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/KanishkRAJ29/Leetcode/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
@@ -640,6 +641,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/KanishkRAJ29/Leetcode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/KanishkRAJ29/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/KanishkRAJ29/Leetcode/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/KanishkRAJ29/Leetcode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/KanishkRAJ29/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/KanishkRAJ29/Leetcode/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
@@ -1074,6 +1076,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/KanishkRAJ29/Leetcode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [1612-avoid-flood-in-the-city](https://github.com/KanishkRAJ29/Leetcode/tree/master/1612-avoid-flood-in-the-city) |
 | [1644-maximum-number-of-non-overlapping-substrings](https://github.com/KanishkRAJ29/Leetcode/tree/master/1644-maximum-number-of-non-overlapping-substrings) |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/KanishkRAJ29/Leetcode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/KanishkRAJ29/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/KanishkRAJ29/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/KanishkRAJ29/Leetcode/tree/master/1834-minimum-number-of-people-to-teach) |
@@ -1236,6 +1239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0967-minimum-falling-path-sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/0967-minimum-falling-path-sum) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/KanishkRAJ29/Leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1628-count-submatrices-with-all-ones](https://github.com/KanishkRAJ29/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
+| [1727-largest-submatrix-with-rearrangements](https://github.com/KanishkRAJ29/Leetcode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1975-maximum-matrix-sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2108-minimize-the-difference-between-target-and-chosen-elements](https://github.com/KanishkRAJ29/Leetcode/tree/master/2108-minimize-the-difference-between-target-and-chosen-elements) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/KanishkRAJ29/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
