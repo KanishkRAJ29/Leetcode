@@ -1,17 +1,29 @@
 class Solution {
 public:
     int minimumDistance(vector<int>& nums) {
-        int n = nums.size() ;
-        if (n <= 2) return -1 ;
-        int ans = INT_MAX ;
+        unordered_map<int, vector<int>> mp;
+        int n = nums.size();
+
+        // Store indices for each value
         for (int i = 0; i < n; i++) {
-            for (int j = i+1; j < n; j++)
-                if (nums[i] == nums[j])
-                for (int k = j+1; k < n; k++)
-                    if (nums[j] == nums[k])
-                    ans = min(ans, 2*(k-i)) ;
+            mp[nums[i]].push_back(i);
         }
-        if (ans == INT_MAX) return -1 ;
-        else return ans ;
+
+        int ans = INT_MAX;
+
+        // Check for each value
+        for (auto &it : mp) {
+            auto &indices = it.second;
+
+            if (indices.size() < 3) continue;
+
+            // Try consecutive triplets
+            for (int i = 0; i + 2 < indices.size(); i++) {
+                int dist = 2 * (indices[i + 2] - indices[i]);
+                ans = min(ans, dist);
+            }
+        }
+
+        return ans == INT_MAX ? -1 : ans;
     }
 };
