@@ -226,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/KanishkRAJ29/Leetcode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3653-xor-after-range-multiplication-queries-i) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/KanishkRAJ29/Leetcode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
+| [3660-jump-game-ix](https://github.com/KanishkRAJ29/Leetcode/tree/master/3660-jump-game-ix) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/KanishkRAJ29/Leetcode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/KanishkRAJ29/Leetcode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
@@ -330,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3637-count-number-of-balanced-permutations](https://github.com/KanishkRAJ29/Leetcode/tree/master/3637-count-number-of-balanced-permutations) |
 | [3648-find-the-maximum-number-of-fruits-collected](https://github.com/KanishkRAJ29/Leetcode/tree/master/3648-find-the-maximum-number-of-fruits-collected) |
 | [3651-minimum-cost-path-with-teleportations](https://github.com/KanishkRAJ29/Leetcode/tree/master/3651-minimum-cost-path-with-teleportations) |
+| [3660-jump-game-ix](https://github.com/KanishkRAJ29/Leetcode/tree/master/3660-jump-game-ix) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/KanishkRAJ29/Leetcode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/KanishkRAJ29/Leetcode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 ## Math
