@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1834-minimum-number-of-people-to-teach](https://github.com/KanishkRAJ29/Leetcode/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1851-maximum-number-of-events-that-can-be-attended-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/1851-maximum-number-of-events-that-can-be-attended-ii) |
 | [1901-equal-sum-arrays-with-minimum-number-of-operations](https://github.com/KanishkRAJ29/Leetcode/tree/master/1901-equal-sum-arrays-with-minimum-number-of-operations) |
+| [1914-cyclically-rotating-a-grid](https://github.com/KanishkRAJ29/Leetcode/tree/master/1914-cyclically-rotating-a-grid) |
 | [1917-maximum-average-pass-ratio](https://github.com/KanishkRAJ29/Leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [1975-maximum-matrix-sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/1975-maximum-matrix-sum) |
 | [1984-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/KanishkRAJ29/Leetcode/tree/master/1984-minimum-difference-between-highest-and-lowest-of-k-scores) |
@@ -1218,6 +1219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0258-add-digits](https://github.com/KanishkRAJ29/Leetcode/tree/master/0258-add-digits) |
 | [0735-asteroid-collision](https://github.com/KanishkRAJ29/Leetcode/tree/master/0735-asteroid-collision) |
 | [1642-water-bottles](https://github.com/KanishkRAJ29/Leetcode/tree/master/1642-water-bottles) |
+| [1914-cyclically-rotating-a-grid](https://github.com/KanishkRAJ29/Leetcode/tree/master/1914-cyclically-rotating-a-grid) |
 | [2048-build-array-from-permutation](https://github.com/KanishkRAJ29/Leetcode/tree/master/2048-build-array-from-permutation) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/KanishkRAJ29/Leetcode/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/KanishkRAJ29/Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -1255,6 +1257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1402-count-square-submatrices-with-all-ones](https://github.com/KanishkRAJ29/Leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1628-count-submatrices-with-all-ones](https://github.com/KanishkRAJ29/Leetcode/tree/master/1628-count-submatrices-with-all-ones) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/KanishkRAJ29/Leetcode/tree/master/1727-largest-submatrix-with-rearrangements) |
+| [1914-cyclically-rotating-a-grid](https://github.com/KanishkRAJ29/Leetcode/tree/master/1914-cyclically-rotating-a-grid) |
 | [1975-maximum-matrix-sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2108-minimize-the-difference-between-target-and-chosen-elements](https://github.com/KanishkRAJ29/Leetcode/tree/master/2108-minimize-the-difference-between-target-and-chosen-elements) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/KanishkRAJ29/Leetcode/tree/master/2244-number-of-laser-beams-in-a-bank) |
