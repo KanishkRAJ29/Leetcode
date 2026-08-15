@@ -231,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/KanishkRAJ29/Leetcode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3660-jump-game-ix](https://github.com/KanishkRAJ29/Leetcode/tree/master/3660-jump-game-ix) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/KanishkRAJ29/Leetcode/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
+| [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/KanishkRAJ29/Leetcode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/KanishkRAJ29/Leetcode/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3740-minimum-distance-between-three-equal-elements-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 | [3741-reschedule-meetings-for-maximum-free-time-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/3741-reschedule-meetings-for-maximum-free-time-ii) |
@@ -460,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/KanishkRAJ29/Leetcode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/KanishkRAJ29/Leetcode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/KanishkRAJ29/Leetcode/tree/master/3676-smallest-number-with-all-set-bits) |
+| [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/KanishkRAJ29/Leetcode/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/KanishkRAJ29/Leetcode/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/KanishkRAJ29/Leetcode/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 ## Combinatorics
