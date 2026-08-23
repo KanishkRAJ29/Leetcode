@@ -376,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1642-water-bottles](https://github.com/KanishkRAJ29/Leetcode/tree/master/1642-water-bottles) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/KanishkRAJ29/Leetcode/tree/master/1817-calculate-money-in-leetcode-bank) |
 | [1925-count-square-sum-triples](https://github.com/KanishkRAJ29/Leetcode/tree/master/1925-count-square-sum-triples) |
+| [1927-sum-game](https://github.com/KanishkRAJ29/Leetcode/tree/master/1927-sum-game) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/KanishkRAJ29/Leetcode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2029-stone-game-ix](https://github.com/KanishkRAJ29/Leetcode/tree/master/2029-stone-game-ix) |
 | [2050-count-good-numbers](https://github.com/KanishkRAJ29/Leetcode/tree/master/2050-count-good-numbers) |
@@ -826,6 +827,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/KanishkRAJ29/Leetcode/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/KanishkRAJ29/Leetcode/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/KanishkRAJ29/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [1927-sum-game](https://github.com/KanishkRAJ29/Leetcode/tree/master/1927-sum-game) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/KanishkRAJ29/Leetcode/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2079-delete-duplicate-folders-in-system](https://github.com/KanishkRAJ29/Leetcode/tree/master/2079-delete-duplicate-folders-in-system) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/KanishkRAJ29/Leetcode/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -1105,6 +1107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1834-minimum-number-of-people-to-teach](https://github.com/KanishkRAJ29/Leetcode/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1901-equal-sum-arrays-with-minimum-number-of-operations](https://github.com/KanishkRAJ29/Leetcode/tree/master/1901-equal-sum-arrays-with-minimum-number-of-operations) |
 | [1917-maximum-average-pass-ratio](https://github.com/KanishkRAJ29/Leetcode/tree/master/1917-maximum-average-pass-ratio) |
+| [1927-sum-game](https://github.com/KanishkRAJ29/Leetcode/tree/master/1927-sum-game) |
 | [1975-maximum-matrix-sum](https://github.com/KanishkRAJ29/Leetcode/tree/master/1975-maximum-matrix-sum) |
 | [2029-stone-game-ix](https://github.com/KanishkRAJ29/Leetcode/tree/master/2029-stone-game-ix) |
 | [2140-longest-subsequence-repeated-k-times](https://github.com/KanishkRAJ29/Leetcode/tree/master/2140-longest-subsequence-repeated-k-times) |
@@ -1493,6 +1496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Game Theory
 |  |
 | ------- |
+| [1927-sum-game](https://github.com/KanishkRAJ29/Leetcode/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/KanishkRAJ29/Leetcode/tree/master/2029-stone-game-ix) |
 | [3462-vowels-game-in-a-string](https://github.com/KanishkRAJ29/Leetcode/tree/master/3462-vowels-game-in-a-string) |
 ## Bitmask
